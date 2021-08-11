@@ -27,6 +27,7 @@ scratch:
     dateFormat: y.MM.dd.HHmmss
     addBehavior: asOwnDomain
 site:
+    siteUrl: 'https://unread.parthshah.ml'
     copyAssets: true
     siteHierarchies:
         - root
