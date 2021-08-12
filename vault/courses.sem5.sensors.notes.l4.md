@@ -2,7 +2,7 @@
 id: S7hzPUgSE9dC5ARCuwnan
 title: L4 - Errors in measurements
 desc: ''
-updated: 1628748616701
+updated: 1628749909623
 created: 1628701054688
 ---
 
