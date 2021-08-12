@@ -654,6 +654,15 @@ hr {
   }
 }
 
+.site-logo {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://unread.parthshah.ml/logo.gif");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: contain;
+}
+
 .site-button {
   display: flex;
   height: 100%;

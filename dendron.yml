@@ -33,10 +33,12 @@ site:
         - root
     siteRootDir: docs
     usePrettyRefs: true
-    title: Dendron
+    title: Parth's unread
     description: Personal knowledge space
     duplicateNoteBehavior:
         action: useVault
         payload:
             - vault
+    logo: vault/logo.gif
+    author: Parth
 initializeRemoteVaults: true
