@@ -2,7 +2,7 @@
 id: S7hzPUgSE9dC5ARCuwnan
 title: L4 - Errors in measurements
 desc: ''
-updated: 1628749909623
+updated: 1628783961434
 created: 1628701054688
 ---
 
@@ -50,7 +50,7 @@ $$
 ## Standard error
 * Likely discrepancy in sample mean and population mean 
 * Standard deviation measures dispersion to the data set relative to its mean 
-  $$ SD=\sqrt{{\displaystyle\sum_{i=1}^{n\scriptscriptstyle x}(x{\scriptscriptstyle li}-x{\scriptscriptstyle l})^2}/n{\scriptscriptstyle x}-1 }
+  $$ SD=\sqrt{{\displaystyle\sum_{i=1}^{n\scriptscriptstyle x}(x{\scriptscriptstyle li}-x{\scriptscriptstyle l})^2}\over{n{\scriptscriptstyle x}-1 }}
   $$
 
 * Divided by nx-1 as we are taking finite readings, x1 is not a true mean but an estimate
