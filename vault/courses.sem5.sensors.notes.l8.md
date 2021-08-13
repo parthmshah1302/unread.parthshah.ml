@@ -2,13 +2,16 @@
 id: WOIw69KWfh9Lk5F5gtTDk
 title: L8 - TinkerCAD Simulator
 desc: ''
-updated: 1628818964241
+updated: 1628840675134
 created: 1628818390373
 ---
 ## LTSpice vs TinkerCAD
 
-LTSpice | TinkerCAD |
-:---------:|:----------:|
- A1 | B1 | 
- A2 | B2 | 
- A3 | B3 | 
+| LTSpice                      | TinkerCAD                             |
+| ---------------------------- | ------------------------------------- |
+| Good circuit schematics      | Components resemble actual components |
+| Good for analog circuit sims | Good for digital circuit sims         |
+|                              | Can do analog with limitations        |
+
+## [Test Circuit](https://www.tinkercad.com/things/d0Tnm2H6i51-sizzling-stantia-fulffy/editel?sharecode=G3ztTDdzkVpnYhFus6uF-L0eXXYZGvLenR_-OV9rzm8)
+ 
