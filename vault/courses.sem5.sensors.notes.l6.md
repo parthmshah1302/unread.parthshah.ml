@@ -2,7 +2,7 @@
 id: gbYfp4nQC66bL3Z4v0V9d
 title: L6 - Computerized measurement and control systems
 desc: ''
-updated: 1628797978092
+updated: 1628912389111
 created: 1628794730076
 ---
 
@@ -59,7 +59,7 @@ Where Tw is the time when the pulse remains high and T is the total time period
 ## Example of a Program (Blinking LED)
 * Turn on for 1 sec and turn off for 1 sec 
 * We can use digital pin, pin 13 of the arduino 
-```c
+```arduino
 //LED on Digital pin 13
 int ledPin=13;
 void setup()

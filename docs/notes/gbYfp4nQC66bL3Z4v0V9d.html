@@ -171,7 +171,7 @@
     <meta itemprop="headline" content="L6 - Computerized measurement and control systems">
     
     <meta itemprop="datePublished" content="2021-08-13T00:28:50+00:00">
-    <meta itemprop="dateModified" content="2021-08-13T01:22:58+00:00">
+    <meta itemprop="dateModified" content="2021-08-14T09:09:49+00:00">
 
     <div class="page__inner-wrap">
 
@@ -266,21 +266,21 @@ Area divided by Time period is average value</li>
 <li>Turn on for 1 sec and turn off for 1 sec </li>
 <li>We can use digital pin, pin 13 of the arduino </li>
 </ul>
-<pre class="language-c"><code class="language-c"><span class="token comment">//LED on Digital pin 13</span>
+<pre class="language-arduino"><code class="language-arduino"><span class="token comment">//LED on Digital pin 13</span>
 <span class="token keyword">int</span> ledPin<span class="token operator">=</span><span class="token number">13</span><span class="token punctuation">;</span>
-<span class="token keyword">void</span> <span class="token function">setup</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">void</span> <span class="token keyword">setup</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
 <span class="token punctuation">{</span>
   <span class="token comment">//sets pin 13 as output</span>
-  <span class="token function">pinMode</span><span class="token punctuation">(</span>ledPin<span class="token punctuation">,</span>OUTPUT<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token function">pinMode</span><span class="token punctuation">(</span>ledPin<span class="token punctuation">,</span><span class="token constant">OUTPUT</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
-<span class="token keyword">void</span> <span class="token function">loop</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">void</span> <span class="token keyword">loop</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
 <span class="token punctuation">{</span>
   <span class="token comment">// Make 13 Pin as HIGH</span>
-  <span class="token function">digitalWrite</span><span class="token punctuation">(</span>ledPin<span class="token punctuation">,</span> HIGH<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token function">digitalWrite</span><span class="token punctuation">(</span>ledPin<span class="token punctuation">,</span> <span class="token constant">HIGH</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
   <span class="token comment">// Delay of 1000 milliseconds</span>
   <span class="token function">delay</span><span class="token punctuation">(</span><span class="token number">1000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
   <span class="token comment">//Make 13 pin as LOW</span>
-  <span class="token function">digitalWrite</span><span class="token punctuation">(</span>ledPin<span class="token punctuation">,</span> LOW<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token function">digitalWrite</span><span class="token punctuation">(</span>ledPin<span class="token punctuation">,</span> <span class="token constant">LOW</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
   <span class="token comment">//Delay of 1000 milliseconds</span>
   <span class="token function">delay</span><span class="token punctuation">(</span><span class="token number">1000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
