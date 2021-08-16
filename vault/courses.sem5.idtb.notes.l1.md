@@ -2,7 +2,7 @@
 id: NeIwLrHhAoe6rgfDudU1a
 title: L1 - Introduction to IDTB 
 desc: ''
-updated: 1629109317882
+updated: 1629120007341
 created: 1629106647961
 ---
 ## What is Psychology? 
@@ -12,7 +12,7 @@ created: 1629106647961
 * Science is the process of gaining knowledge through observation and experimentation 
 ## Why is it necessary to study psychology? 
 * All of these statements are **False**
-* ![](assets/images/2021-08-16-14-02-09.png)
+* ![](/assets/images/2021-08-16-18-50-01.png)
 * We do not understand situations that we are using in our everyday life
 ## Schools of Psychology 
 * Structuralism 
