@@ -1,10 +1,11 @@
 ---
 id: 7R82FAhpJe40RHIZ1nEvC
-title: Root
+title: Welcome to Unread 👾
 desc: ''
-updated: 1628700973832
+updated: 1629138199660
 created: 1628700973833
 ---
-# Welcome to Dendron
-
-This is the root of your dendron vault. If you decide to publish your entire vault, this will be your landing page. You are free to customize any part of this page except the frontmatter on top. 
+### This is the root of Parth's unread. This is a vault of my academic notes, tinkerings, content that amuses me or random thoughts. 
+ 
+#### Until then, here's a nice picture of the beach
+![Refresh for a newer picture](https://source.unsplash.com/960x540?beach)
