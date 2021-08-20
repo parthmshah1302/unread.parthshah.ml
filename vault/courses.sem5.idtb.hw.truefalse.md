@@ -1,9 +1,9 @@
 ---
-id: R1tgORwEcaQ3VA1SUtAv1
-title: L0 - True or False
-desc: ""
-updated: 1629103652595
-created: 1629102703966
+id: W2uPBGGdfbR6DlAPJbPFK
+title: True Or False
+desc: ''
+updated: 1629432422183
+created: 1629432403053
 ---
 
 
@@ -39,3 +39,5 @@ created: 1629102703966
 21. Under hypnosis, people can perform feats of physical strength which they could never do otherwise. **False**
 22. The more you memorize by rote (for example, poems) the better you will become at memorizing. **False**
 23. Children’s IQ scores have very little relationship with how well they do in school. **True**
+
+## All the answers are False by the way
