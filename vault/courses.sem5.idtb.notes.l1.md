@@ -2,7 +2,7 @@
 id: NeIwLrHhAoe6rgfDudU1a
 title: L1 - Introduction to IDTB 
 desc: ''
-updated: 1629120007341
+updated: 1629452347861
 created: 1629106647961
 ---
 ## What is Psychology? 
@@ -19,6 +19,23 @@ created: 1629106647961
   * You break down anything to it's constituent elements 
   * To study mind, we break it down into smaller parts (through introspection)
   * Introspection: Objectively examine your thoughts and break it down 
+  * Sensations and thoughts
   ### Problem with this method
   * It does not tell us how mind functions, even if we have broken it down to it's elements
-  
+* Functionalist Approach 
+  * We check for the function of each element 
+  * _Mind and behaviour are adaptive_
+  * Problem: We do not have any scientific methods to understand this 
+  * Observation and experimentation of the mind is difficult 
+* Behaviourism: 
+  * Observable actions 
+* Gestalt Psychology 
+  * Negated the idea of elements
+  * Mind as a whole - pattern and relationships 
+  * Informations from the void
+  * ![](/assets/images/2021-08-20-15-02-41.png)
+  * _ToDo_: Analyse the clip from different school of thoughts (Ishan's Mind)
+    * Strctural: 
+    * Functionalist: What questions
+    * Behaviourist: How are we going to ask
+    * We are interested in the questions
