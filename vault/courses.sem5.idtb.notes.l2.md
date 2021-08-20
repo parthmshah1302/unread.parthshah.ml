@@ -2,7 +2,7 @@
 id: Lye09DOJnFdCOBx6w8Ih6
 title: L2
 desc: ''
-updated: 1629454832837
+updated: 1629465353005
 created: 1629450408868
 ---
 # Johari Window (What is it and how is it going to help us)
@@ -20,3 +20,6 @@ created: 1629450408868
   * Start with a believer mindset 
   * Leap of faith/confidence in newer members 
   * Unknown area may have some repressed feelings - Those should be dealt by an Expert 
+## **ToDo**
+- [ ] Ishan points from different school ideologies 
+- [ ] 
