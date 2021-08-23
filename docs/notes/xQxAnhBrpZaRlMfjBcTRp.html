@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
   
-  <title>This page has not yet sprouted - Parth's unread</title>
+  <title>L3 - System Calls - Parth's unread</title>
   
 
   <link
@@ -43,22 +43,22 @@
 <meta name="description" content="Personal knowledge space">
 <meta name="author" content="Parth">
 
-<link rel="canonical" href="https://unread.parthshah.ml/notes/403.html">
+<link rel="canonical" href="https://unread.parthshah.ml/notes/xQxAnhBrpZaRlMfjBcTRp.html">
 
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://unread.parthshah.ml/notes/403.html">
+<meta property="og:url" content="https://unread.parthshah.ml/notes/xQxAnhBrpZaRlMfjBcTRp.html">
 <meta property="og:description" content="Personal knowledge space">
 <meta property="og:image" content="https://unread.parthshah.ml/logo.gif">
 
 <meta name="twitter:card" content="summary">
 
-<meta name="twitter:url" content="https://unread.parthshah.ml/notes/403.html">
+<meta name="twitter:url" content="https://unread.parthshah.ml/notes/xQxAnhBrpZaRlMfjBcTRp.html">
 <meta name="twitter:description" content="Personal knowledge space">
 <meta name="twitter:image" content="https://unread.parthshah.ml/logo.gif">
 
 
-  <meta property="og:title" content="This page has not yet sprouted - Parth's unread" />
-  <meta name="twitter:title" content="This page has not yet sprouted - Parth's unread" />
+  <meta property="og:title" content="L3 - System Calls - Parth's unread" />
+  <meta name="twitter:title" content="L3 - System Calls - Parth's unread" />
   
 </head>
 
@@ -131,6 +131,10 @@
     <div id="main-content-wrap" class="main-content-wrap">
       
         
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://unread.parthshah.ml">Welcome to Unread 👾</a></li><li class="breadcrumb-nav-list-item"><a href="https://unread.parthshah.ml/notes\9MM7YZXp6aLHpfrPgwfil.html">Courses</a></li><li class="breadcrumb-nav-list-item"><a href="https://unread.parthshah.ml/notes\h9FhyD7JWCWOcmTkZ9uFF.html">Semester 5</a></li><li class="breadcrumb-nav-list-item"><a href="https://unread.parthshah.ml/notes\jIDlfSvdGxTvOlx6n7sFv.html">Operating Systems</a></li><li class="breadcrumb-nav-list-item"><a href="https://unread.parthshah.ml/notes\s3EgnxROueJ2QHGOPZmRb.html">Notes</a></li><li class="breadcrumb-nav-list-item">L3 - System Calls</li></ol>
+          </nav>
+        
       
       <div id="main-content" class="main-content" role="main">
 
@@ -164,10 +168,10 @@
 <div id="main" role="main">
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="This page has not yet sprouted">
+    <meta itemprop="headline" content="L3 - System Calls">
     
-    <meta itemprop="datePublished" content="2021-08-23T09:18:02+00:00">
-    <meta itemprop="dateModified" content="2021-08-23T09:18:02+00:00">
+    <meta itemprop="datePublished" content="2021-08-23T08:01:57+00:00">
+    <meta itemprop="dateModified" content="2021-08-23T09:17:37+00:00">
 
     <div class="page__inner-wrap">
 
@@ -177,9 +181,78 @@
 
         
 
-        <h1 id="this-page-has-not-yet-sprouted"><a aria-hidden="true" class="anchor-heading" href="#this-page-has-not-yet-sprouted"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>This page has not yet sprouted</h1>
-<p><a href="https://dendron.so/">Dendron</a> (the tool used to generate this site) lets authors selective publish content. You will see this page whenever you click on a link to an unpublished page</p>
-<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/not-sprouted.png"></p><span id="navId" data="403"></span>
+        <h1 id="l3---system-calls"><a aria-hidden="true" class="anchor-heading" href="#l3---system-calls"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>L3 - System Calls</h1>
+<h2 id="system-calls"><a aria-hidden="true" class="anchor-heading" href="#system-calls"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>System Calls</h2>
+<ul>
+<li>Helps to access the services provided by an Operating System</li>
+<li><img src="/assets/images/2021-08-23-08-23-02.png"></li>
+<li><img src="/assets/images/2021-08-23-08-25-54.png"></li>
+<li><em>man</em> in the man command stands for manual </li>
+<li>Implementation
+<ul>
+<li>A number is associated with each system call </li>
+<li>System-call interface maintains a table according to these numbers</li>
+<li>The interface invokes the intended system call in OS Kernel and returns status of the system call and any return values </li>
+<li>The caller need to know nothing about the implementation (Abstraction)
+<ul>
+<li>Needs to obey API and understand what OS will do as a result call </li>
+<li>Most details are hidden by API 
+<ul>
+<li>Managed by run-time support library (functions built into library included with compiler)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>API System Call - OS Relationship 
+<ul>
+<li><img src="/assets/images/2021-08-23-08-31-26.png"></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="types-of-system-calls"><a aria-hidden="true" class="anchor-heading" href="#types-of-system-calls"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Types of System Calls</h2>
+<ul>
+<li>File Management 
+<ul>
+<li>create delete open close read write get set</li>
+</ul>
+</li>
+<li>Device Management (Memory or I/O)
+<ul>
+<li>request, release, read, write, logically attach or detach</li>
+</ul>
+</li>
+<li>Protection
+<ul>
+<li>control access, deny</li>
+</ul>
+</li>
+<li>Information maintenance
+<ul>
+<li>get/set time date, get/set system data, get/set process</li>
+</ul>
+</li>
+<li>Communications 
+<ul>
+<li>create/delete connections, send/receive messages, transfer status information</li>
+</ul>
+</li>
+</ul>
+<h2 id="architecture-of-unix-systems"><a aria-hidden="true" class="anchor-heading" href="#architecture-of-unix-systems"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Architecture of UNIX Systems</h2>
+<ul>
+<li><img src="/assets/images/2021-08-23-08-36-14.png"></li>
+<li>Everything is a file for Linux or Unix system
+<ul>
+<li>Processes is also a file </li>
+</ul>
+</li>
+</ul>
+<h2 id="linux-commands"><a aria-hidden="true" class="anchor-heading" href="#linux-commands"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Linux Commands</h2>
+<ul>
+<li><em>ps aux</em>: Lists all processes </li>
+<li><em>cd/cd ~</em>: Directly back to home directory </li>
+</ul><span id="navId" data="xQxAnhBrpZaRlMfjBcTRp"></span>
 
                 
       </section>
