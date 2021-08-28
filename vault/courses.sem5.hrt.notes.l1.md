@@ -2,7 +2,7 @@
 id: RS0pMLTtuIC0G6hKGBSil
 title: L1 - Introduction to Conservation
 desc: ""
-updated: 1629172627709
+updated: 1629341158686
 created: 1629169645564
 ---
 
@@ -28,5 +28,7 @@ created: 1629169645564
   - Written Exam - 40%
 ## Preventive Conservation
 * Preventive Conservation: Conserving under a controlled environment 
+## Curative Conservation 
+* Object is damaged and we try to restore it 
 
 ### [Lecture Recordingc (from the point I remembered to record)](https://drive.google.com/file/d/1JGZYP5z6Tv4bjTiE41K3U62QTRVkZzAe/view?usp=sharing) 
