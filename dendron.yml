@@ -42,3 +42,4 @@ site:
     logo: vault/logo.gif
     author: Parth
 initializeRemoteVaults: true
+dendronVersion: 0.56.0

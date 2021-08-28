@@ -8,7 +8,7 @@ created: 1629697047407
 
 ![](/assets/images/2021-08-23-11-14-19.png)
 
-- Write a program to convert digits of 4 and 7 to packed BCD and display on PORTB
+- Write a program to convert digits of 4 and 7 to cked BCD and display on PORTB
 * '4' is 0x34 and '7' is 0x37 
   ```c
   #include<avr/io.h>
