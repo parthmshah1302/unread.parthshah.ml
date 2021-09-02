@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/parthmshah1302/unread.parthshah.ml#readme",
   "dependencies": {
-    "@dendronhq/dendron-11ty": "^1.56.0",
+    "@dendronhq/dendron-11ty": "^1.57.0",
     "@dendronhq/dendron-cli": "^0.54.0"
   }
 }
