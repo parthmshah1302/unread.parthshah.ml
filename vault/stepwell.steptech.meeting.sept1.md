@@ -2,7 +2,7 @@
 id: kpE72TZQpzpP8tReGBXeh
 title: Sept1
 desc: ""
-updated: 1630495572397
+updated: 1630554635606
 created: 1630492847604
 ---
 
@@ -14,7 +14,7 @@ created: 1630492847604
 - RJ Live Chat
   - Cannot use URL based RJ Chat
 - Google Analytics 
-  - Behavorial Analytics are needed 
+  - Behavioural Analytics are needed 
 - About Us
   - Look for design inspirations
 
