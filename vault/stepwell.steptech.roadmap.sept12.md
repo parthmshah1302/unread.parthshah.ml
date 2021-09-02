@@ -1,6 +1,6 @@
 ---
 id: R6v2jA00EefUIr6P7BMaW
-title: Sept12
+title: Plan until Sept 12
 desc: ''
 updated: 1630556027579
 created: 1630554680195
