@@ -2,7 +2,7 @@
 id: 0vsXoFu0T3hAK2pzle2TP
 title: Lab2
 desc: ""
-updated: 1630688841254
+updated: 1630689539394
 created: 1630650940304
 ---
 ## [Question Set](https://drive.google.com/file/d/1TxIzxSoEqgJITviQ6wIw20PAkE-eENga/view?usp=sharing)
@@ -22,10 +22,8 @@ void main() {
        }
 }
 ```
-[Video](/assets/Q2_Parth_Shah_AU1940065.mp4)
-<figure class="video_container">
-  <iframe src="/assets/Q2_Parth_Shah_AU1940065.mp4" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
+[Video](/assets/Lab1_Q2_Parth_Shah_AU1940065.mp4)
+
 ### Question 3
 
 ```c
@@ -37,3 +35,11 @@ void main(){
 }
 
 ```
+[Video](/assets/Lab1_Q3_Parth_Shah_AU1940065.mp4)
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" >
+    <source src="assets\Lab1_Q3_Parth_Shah_AU1940065.mp4" type="video/mp4">
+  </video>
+</figure>
+
+![](/assets/images/Lab1_Q3_Circuit.jpeg)
