@@ -1,6 +1,6 @@
 ---
 id: rw6kYUDCvE0L4vHA4OuM9
-title: Guestspeaker
+title: Guest Lectures
 desc: ''
 updated: 1631193856853
 created: 1631193856853
