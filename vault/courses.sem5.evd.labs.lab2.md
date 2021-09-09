@@ -2,10 +2,12 @@
 id: 0vsXoFu0T3hAK2pzle2TP
 title: Lab2
 desc: ""
-updated: 1630689539394
+updated: 1630950157709
 created: 1630650940304
 ---
-## [Question Set](https://drive.google.com/file/d/1TxIzxSoEqgJITviQ6wIw20PAkE-eENga/view?usp=sharing)
+## [Question Set](https://drive.google.com/file/d/
+
+1TxIzxSoEqgJITviQ6wIw20PAkE-eENga/view?usp=sharing)
 ### Question 2
 
 ```c
@@ -43,3 +45,4 @@ void main(){
 </figure>
 
 ![](/assets/images/Lab1_Q3_Circuit.jpeg)
+

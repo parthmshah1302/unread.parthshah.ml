@@ -2,12 +2,10 @@
 id: eQCiMfRMlQE31XQLiiDxe
 title: "Assignment 1"
 desc: ""
-updated: 1630382068986
+updated: 1630985392802
 created: 1630381195395
 ---
 
-$$
-y=mx+c \above{}
-m={4800-100\over{380-(-70)}} 
+## [Assignment 1](/assets/Assignment_1_ENR305_Sensors_instruments_and_Experimentation.pdf)
 
-$$
+## [Assignment 1 - Solution](/assets/1_AU1940065_AU1940175_AU1940017.pdf)
