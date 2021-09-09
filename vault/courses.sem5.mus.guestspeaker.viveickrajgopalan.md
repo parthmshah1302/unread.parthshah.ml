@@ -2,10 +2,9 @@
 id: JHoqbp8GoenL276YMWJIo
 title: Viveick Rajgopalan
 desc: ''
-updated: 1631208239598
+updated: 1631209662263
 created: 1631189067889
 ---
-
 ## What do you see when you look yourself in the mirror? 
 
 * The distance between 2 earlobes of every human is the same 
@@ -62,3 +61,5 @@ created: 1631189067889
 * Music will take you places, whatever form it is 
 * The sound totally worked in Spain; though nobody understood the language 
 * Loved the feeling of it; without focusing on the words 
+
+#### [Click here for PDF](/assets/ViveickRajgopalan_MUS100.pdf)
