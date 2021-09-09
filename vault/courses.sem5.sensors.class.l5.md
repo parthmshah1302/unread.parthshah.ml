@@ -2,7 +2,7 @@
 id: Zda7hTwKErM89zYrFDRBb
 title: L5 - Control Systems
 desc: ''
-updated: 1630570479246
+updated: 1630642645188
 created: 1630568152560
 ---
 * A control system manages, commands, directs, or regulates the behavior of other devices or systems using control loop
@@ -49,5 +49,4 @@ created: 1630568152560
 
 ## Specification in Control Systems 
 * Accuracy of Output
-* ![](/assets/images/2021-09-02-13-48-51.png)
-* 
+* ![](/assets/images/2021-09-02-13-48-51.png) 
