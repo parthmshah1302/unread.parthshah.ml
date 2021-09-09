@@ -2,7 +2,7 @@
 id: JHoqbp8GoenL276YMWJIo
 title: Viveick Rajgopalan
 desc: ''
-updated: 1631192365755
+updated: 1631206498071
 created: 1631189067889
 ---
 
@@ -50,7 +50,7 @@ created: 1631189067889
 * Mix the ingredients, not the final outputs of anything 
 
 ## Quarantine Isolation vs Collaboration? 
-* Launched [artsqft.com](artsqft.com)
+* Launched [artsqft.com](https://artsqft.com)
 * If I have a problem, there is a high chance other people also have that problem - I try to solve that problem 
 
 ## What makes the music alive?  
