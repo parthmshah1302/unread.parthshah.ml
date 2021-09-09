@@ -2,7 +2,7 @@
 id: sX5HCJQCQctqtxtSOOdo6
 title: 'Lab 3'
 desc: ''
-updated: 1631186746900
+updated: 1631187146789
 created: 1631178674787
 ---
 
@@ -58,4 +58,6 @@ for entry in $dirname
 do  
     echo $entry
 done
+# shopt -s globstar in bash 
+# stat **
 ``` 
