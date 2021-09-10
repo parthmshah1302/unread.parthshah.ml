@@ -2,7 +2,7 @@
 id: xQxAnhBrpZaRlMfjBcTRp
 title: L3 - System Calls
 desc: ''
-updated: 1631264221282
+updated: 1631264354067
 created: 1629685917618
 ---
 ## System Calls 
@@ -41,6 +41,6 @@ created: 1629685917618
 * _cd/cd ~_: Directly back to home directory 
 
 
-![](assets/images/L3_OS_Image.png)
+![](/assets/images/L3_OS_Image.png)
 
 #### [Click here for PDF](/assets/L3_OS.pdf)
