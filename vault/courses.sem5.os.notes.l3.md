@@ -2,12 +2,13 @@
 id: xQxAnhBrpZaRlMfjBcTRp
 title: L3 - System Calls
 desc: ''
-updated: 1629690457497
+updated: 1631264221282
 created: 1629685917618
 ---
 ## System Calls 
 * Helps to access the services provided by an Operating System
 * ![](/assets/images/2021-08-23-08-23-02.png)
+  
 * ![](/assets/images/2021-08-23-08-25-54.png)
 * _man_ in the man command stands for manual 
 * Implementation
@@ -38,3 +39,8 @@ created: 1629685917618
 ## Linux Commands 
 * _ps aux_: Lists all processes 
 * _cd/cd ~_: Directly back to home directory 
+
+
+![](assets/images/L3_OS_Image.png)
+
+#### [Click here for PDF](/assets/L3_OS.pdf)

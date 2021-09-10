@@ -8629,16 +8629,18 @@ iframe {
   position: absolute;
   width: 100%;
   margin-left: 0px;
-  height: 36px;
+  height: 0px;
   z-index: 50;
+  pointer-events: none;
 }
 .portal-container .portal-parent .portal-parent-fader-bottom {
   position: absolute;
   width: 100%;
   bottom: 6px;
   margin-left: 0px;
-  height: 36px;
+  height: 0px;
   z-index: 50;
+  pointer-events: none;
 }
 .portal-container .portal-parent .portal-parent-text {
   padding: 0.75;
