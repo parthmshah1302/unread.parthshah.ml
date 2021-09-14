@@ -171,7 +171,7 @@
     <meta itemprop="headline" content="Lab 3">
     
     <meta itemprop="datePublished" content="2021-09-09T14:41:14+00:00">
-    <meta itemprop="dateModified" content="2021-09-09T17:02:26+00:00">
+    <meta itemprop="dateModified" content="2021-09-14T20:24:54+00:00">
 
     <div class="page__inner-wrap">
 
@@ -186,7 +186,25 @@
 <h1 id="q1"><a aria-hidden="true" class="anchor-heading" href="#q1"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Q1</h1>
 <pre class="language-bash"><code class="language-bash"><span class="token shebang important">#!/usr/bin/env bash</span>
 <span class="token comment"># Parth Shah AU1940065</span>
-<span class="token assign-left variable">DIR</span><span class="token operator">=</span><span class="token string">"/home/parth/Desktop/Codee"</span>
+<span class="token function">cat</span> <span class="token operator">&#x3C;&#x3C;</span> <span class="token string">"EOF"
+
+██████╗  █████╗ ██████╗ ████████╗██╗  ██╗    ███████╗██╗  ██╗ █████╗ ██╗  ██╗    
+██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██║  ██║    ██╔════╝██║  ██║██╔══██╗██║  ██║    
+██████╔╝███████║██████╔╝   ██║   ███████║    ███████╗███████║███████║███████║    
+██╔═══╝ ██╔══██║██╔══██╗   ██║   ██╔══██║    ╚════██║██╔══██║██╔══██║██╔══██║    
+██║     ██║  ██║██║  ██║   ██║   ██║  ██║    ███████║██║  ██║██║  ██║██║  ██║    
+╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝    
+                                                                                 
+ █████╗ ██╗   ██╗ ██╗ █████╗ ██╗  ██╗ ██████╗  ██████╗  ██████╗ ███████╗         
+██╔══██╗██║   ██║███║██╔══██╗██║  ██║██╔═████╗██╔═████╗██╔════╝ ██╔════╝         
+███████║██║   ██║╚██║╚██████║███████║██║██╔██║██║██╔██║███████╗ ███████╗         
+██╔══██║██║   ██║ ██║ ╚═══██║╚════██║████╔╝██║████╔╝██║██╔═══██╗╚════██║         
+██║  ██║╚██████╔╝ ██║ █████╔╝     ██║╚██████╔╝╚██████╔╝╚██████╔╝███████║         
+╚═╝  ╚═╝ ╚═════╝  ╚═╝ ╚════╝      ╚═╝ ╚═════╝  ╚═════╝  ╚═════╝ ╚══════╝         
+                                                                                 
+
+EOF</span>
+<span class="token assign-left variable">DIR</span><span class="token operator">=</span><span class="token string">"/home/parth/Desktop/Code/OS-Labs/Lab3/"</span>
 <span class="token keyword">if</span> <span class="token punctuation">[</span> -d <span class="token string">"<span class="token variable">$DIR</span>"</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span> 
     <span class="token builtin class-name">echo</span> <span class="token string">"The directory is found"</span>
     <span class="token builtin class-name">cd</span> <span class="token variable">$DIR</span>
@@ -198,6 +216,24 @@
 <h1 id="q2"><a aria-hidden="true" class="anchor-heading" href="#q2"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Q2</h1>
 <pre class="language-bash"><code class="language-bash"><span class="token shebang important">#!/usr/bin/env bash</span>
 <span class="token comment"># Parth Shah AU1940065</span>
+<span class="token function">cat</span> <span class="token operator">&#x3C;&#x3C;</span> <span class="token string">"EOF"
+
+██████╗  █████╗ ██████╗ ████████╗██╗  ██╗    ███████╗██╗  ██╗ █████╗ ██╗  ██╗    
+██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██║  ██║    ██╔════╝██║  ██║██╔══██╗██║  ██║    
+██████╔╝███████║██████╔╝   ██║   ███████║    ███████╗███████║███████║███████║    
+██╔═══╝ ██╔══██║██╔══██╗   ██║   ██╔══██║    ╚════██║██╔══██║██╔══██║██╔══██║    
+██║     ██║  ██║██║  ██║   ██║   ██║  ██║    ███████║██║  ██║██║  ██║██║  ██║    
+╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝    
+                                                                                 
+ █████╗ ██╗   ██╗ ██╗ █████╗ ██╗  ██╗ ██████╗  ██████╗  ██████╗ ███████╗         
+██╔══██╗██║   ██║███║██╔══██╗██║  ██║██╔═████╗██╔═████╗██╔════╝ ██╔════╝         
+███████║██║   ██║╚██║╚██████║███████║██║██╔██║██║██╔██║███████╗ ███████╗         
+██╔══██║██║   ██║ ██║ ╚═══██║╚════██║████╔╝██║████╔╝██║██╔═══██╗╚════██║         
+██║  ██║╚██████╔╝ ██║ █████╔╝     ██║╚██████╔╝╚██████╔╝╚██████╔╝███████║         
+╚═╝  ╚═╝ ╚═════╝  ╚═╝ ╚════╝      ╚═╝ ╚═════╝  ╚═════╝  ╚═════╝ ╚══════╝         
+                                                                                 
+
+EOF</span>
 <span class="token builtin class-name">read</span> -p <span class="token string">"enter value of dir1: "</span> dir1
 <span class="token builtin class-name">read</span> -p <span class="token string">"enter value of dir2: "</span> dir2
 <span class="token keyword">if</span> <span class="token punctuation">[</span><span class="token punctuation">[</span> -d <span class="token string">"<span class="token variable">$dir1</span>"</span> <span class="token punctuation">]</span><span class="token punctuation">]</span> <span class="token operator">&#x26;&#x26;</span> <span class="token punctuation">[</span><span class="token punctuation">[</span> -d <span class="token string">"<span class="token variable">$dir2</span>"</span> <span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
@@ -212,6 +248,24 @@
 <h1 id="q3"><a aria-hidden="true" class="anchor-heading" href="#q3"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Q3</h1>
 <pre class="language-bash"><code class="language-bash"><span class="token shebang important">#!/usr/bin/env bash</span>
 <span class="token comment"># Parth Shah AU1940065</span>
+<span class="token function">cat</span> <span class="token operator">&#x3C;&#x3C;</span> <span class="token string">"EOF"
+
+██████╗  █████╗ ██████╗ ████████╗██╗  ██╗    ███████╗██╗  ██╗ █████╗ ██╗  ██╗    
+██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██║  ██║    ██╔════╝██║  ██║██╔══██╗██║  ██║    
+██████╔╝███████║██████╔╝   ██║   ███████║    ███████╗███████║███████║███████║    
+██╔═══╝ ██╔══██║██╔══██╗   ██║   ██╔══██║    ╚════██║██╔══██║██╔══██║██╔══██║    
+██║     ██║  ██║██║  ██║   ██║   ██║  ██║    ███████║██║  ██║██║  ██║██║  ██║    
+╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝    
+                                                                                 
+ █████╗ ██╗   ██╗ ██╗ █████╗ ██╗  ██╗ ██████╗  ██████╗  ██████╗ ███████╗         
+██╔══██╗██║   ██║███║██╔══██╗██║  ██║██╔═████╗██╔═████╗██╔════╝ ██╔════╝         
+███████║██║   ██║╚██║╚██████║███████║██║██╔██║██║██╔██║███████╗ ███████╗         
+██╔══██║██║   ██║ ██║ ╚═══██║╚════██║████╔╝██║████╔╝██║██╔═══██╗╚════██║         
+██║  ██║╚██████╔╝ ██║ █████╔╝     ██║╚██████╔╝╚██████╔╝╚██████╔╝███████║         
+╚═╝  ╚═╝ ╚═════╝  ╚═╝ ╚════╝      ╚═╝ ╚═════╝  ╚═════╝  ╚═════╝ ╚══════╝         
+                                                                                 
+
+EOF</span>
 <span class="token builtin class-name">read</span> -p <span class="token string">"enter time interval: "</span> interval
 <span class="token builtin class-name">read</span> -p <span class="token string">"enter number of times: "</span> howmany
 gcc q3_hello.c
@@ -219,19 +273,82 @@ gcc q3_hello.c
     <span class="token keyword">do</span> gcc q3_hello.c <span class="token operator">&#x26;&#x26;</span> ./a.out<span class="token punctuation">;</span>
     <span class="token function">sleep</span> <span class="token variable">$interval</span><span class="token punctuation">;</span> 
 <span class="token keyword">done</span>
-
 </code></pre>
 <h1 id="q4"><a aria-hidden="true" class="anchor-heading" href="#q4"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Q4</h1>
 <pre class="language-bash"><code class="language-bash"><span class="token shebang important">#!/usr/bin/env bash </span>
 <span class="token comment"># Parth Shah AU1940065</span>
+<span class="token function">cat</span> <span class="token operator">&#x3C;&#x3C;</span> <span class="token string">"EOF"
+
+██████╗  █████╗ ██████╗ ████████╗██╗  ██╗    ███████╗██╗  ██╗ █████╗ ██╗  ██╗    
+██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██║  ██║    ██╔════╝██║  ██║██╔══██╗██║  ██║    
+██████╔╝███████║██████╔╝   ██║   ███████║    ███████╗███████║███████║███████║    
+██╔═══╝ ██╔══██║██╔══██╗   ██║   ██╔══██║    ╚════██║██╔══██║██╔══██║██╔══██║    
+██║     ██║  ██║██║  ██║   ██║   ██║  ██║    ███████║██║  ██║██║  ██║██║  ██║    
+╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝    
+                                                                                 
+ █████╗ ██╗   ██╗ ██╗ █████╗ ██╗  ██╗ ██████╗  ██████╗  ██████╗ ███████╗         
+██╔══██╗██║   ██║███║██╔══██╗██║  ██║██╔═████╗██╔═████╗██╔════╝ ██╔════╝         
+███████║██║   ██║╚██║╚██████║███████║██║██╔██║██║██╔██║███████╗ ███████╗         
+██╔══██║██║   ██║ ██║ ╚═══██║╚════██║████╔╝██║████╔╝██║██╔═══██╗╚════██║         
+██║  ██║╚██████╔╝ ██║ █████╔╝     ██║╚██████╔╝╚██████╔╝╚██████╔╝███████║         
+╚═╝  ╚═╝ ╚═════╝  ╚═╝ ╚════╝      ╚═╝ ╚═════╝  ╚═════╝  ╚═════╝ ╚══════╝         
+                                                                                 
+
+EOF</span>
+
 <span class="token builtin class-name">read</span> -p <span class="token string">"Enter the directory name: "</span> <span class="token function">dirname</span>
-<span class="token keyword">for</span> <span class="token for-or-select variable">entry</span> <span class="token keyword">in</span> <span class="token variable">$dirname</span>
-<span class="token keyword">do</span>  
-    <span class="token builtin class-name">echo</span> <span class="token variable">$entry</span>
-<span class="token keyword">done</span>
-<span class="token comment"># shopt -s globstar in bash </span>
-<span class="token comment"># stat **</span>
-</code></pre><span id="navId" data="sX5HCJQCQctqtxtSOOdo6"></span>
+<span class="token comment"># dirname="/home/parth/Desktop/Code/OS-Labs/Lab3"</span>
+<span class="token comment"># dirname="/home/parth/Desktop/Code/stepwell-spotdl"</span>
+<span class="token builtin class-name">cd</span> <span class="token variable">$dirname</span>
+
+<span class="token function">cat</span> <span class="token operator">&#x3C;&#x3C;</span> <span class="token string">"EOF" 
+
+   ___                                     __     ___
+  / _ |  ___   ___   ____ ___  ___ _ ____ / /    &#x3C;  /
+ / __ | / _ \ / _ \ / __// _ \/ _ `// __// _ \   / / 
+/_/ |_|/ .__// .__//_/   \___/\_,_/ \__//_//_/  /_/  
+      /_/   /_/                                      
+
+EOF</span>
+<span class="token assign-left variable">name</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">ls</span> -lh $dirname <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">'{print  $9}'</span><span class="token variable">)</span></span>
+<span class="token assign-left variable">size</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">ls</span> -lh $dirname <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">'{print  $5}'</span><span class="token variable">)</span></span>
+<span class="token assign-left variable">datemonth</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">ls</span> -lh $dirname <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">'{print  $6}'</span><span class="token variable">)</span></span>
+<span class="token assign-left variable">datenum</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">ls</span> -lh $dirname <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">'{print  $7}'</span><span class="token variable">)</span></span>
+<span class="token assign-left variable">protection</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">ls</span> -lh $dirname <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">'{print  $1}'</span><span class="token variable">)</span></span>
+<span class="token assign-left variable">owner</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">ls</span> -lh $dirname <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">'{print  $3}'</span><span class="token variable">)</span></span>
+<span class="token function">paste</span> <span class="token operator">&#x3C;</span><span class="token punctuation">(</span><span class="token builtin class-name">printf</span> %s <span class="token string">"<span class="token variable">$name</span>"</span><span class="token punctuation">)</span> <span class="token operator">&#x3C;</span><span class="token punctuation">(</span><span class="token builtin class-name">printf</span> %s <span class="token string">"<span class="token variable">$size</span>"</span><span class="token punctuation">)</span> <span class="token operator">&#x3C;</span><span class="token punctuation">(</span><span class="token builtin class-name">printf</span> %s <span class="token string">"<span class="token variable">$datemonth</span>"</span><span class="token punctuation">)</span> <span class="token operator">&#x3C;</span><span class="token punctuation">(</span><span class="token builtin class-name">printf</span> %s <span class="token string">"<span class="token variable">$datenum</span>"</span><span class="token punctuation">)</span> <span class="token operator">&#x3C;</span><span class="token punctuation">(</span><span class="token builtin class-name">printf</span> %s <span class="token string">"<span class="token variable">$protection</span>"</span><span class="token punctuation">)</span> <span class="token operator">&#x3C;</span><span class="token punctuation">(</span><span class="token builtin class-name">printf</span> %s <span class="token string">"<span class="token variable">$owner</span>"</span><span class="token punctuation">)</span>
+
+<span class="token function">cat</span> <span class="token operator">&#x3C;&#x3C;</span> <span class="token string">"EOF" 
+
+   ___                                     __     ___ 
+  / _ |  ___   ___   ____ ___  ___ _ ____ / /    |_  |
+ / __ | / _ \ / _ \ / __// _ \/ _ `// __// _ \  / __/ 
+/_/ |_|/ .__// .__//_/   \___/\_,_/ \__//_//_/ /____/ 
+      /_/   /_/                                       
+
+EOF</span>
+<span class="token builtin class-name">shopt</span> -s dotglob
+<span class="token assign-left variable">name</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">stat</span> --printf<span class="token operator">=</span><span class="token string">"%n<span class="token entity" title="\n">\n</span>"</span> $dirname/*<span class="token variable">)</span></span>
+<span class="token assign-left variable">size</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">stat</span> --printf<span class="token operator">=</span><span class="token string">"%s<span class="token entity" title="\n">\n</span>"</span> $dirname/*<span class="token variable">)</span></span>
+<span class="token assign-left variable">date</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">stat</span> --printf<span class="token operator">=</span><span class="token string">"%.10y<span class="token entity" title="\n">\n</span>"</span> $dirname/*<span class="token variable">)</span></span>
+<span class="token assign-left variable">protection</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">stat</span> --printf<span class="token operator">=</span><span class="token string">"%A<span class="token entity" title="\n">\n</span>"</span> $dirname/*<span class="token variable">)</span></span>
+<span class="token assign-left variable">owner</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">stat</span> --printf<span class="token operator">=</span><span class="token string">"%U<span class="token entity" title="\n">\n</span>"</span> $dirname/*<span class="token variable">)</span></span>
+<span class="token function">paste</span> <span class="token operator">&#x3C;</span><span class="token punctuation">(</span><span class="token builtin class-name">printf</span> %s <span class="token string">"<span class="token variable">$name</span>"</span><span class="token punctuation">)</span> <span class="token operator">&#x3C;</span><span class="token punctuation">(</span><span class="token builtin class-name">printf</span> %s <span class="token string">"<span class="token variable">$size</span>"</span><span class="token punctuation">)</span> <span class="token operator">&#x3C;</span><span class="token punctuation">(</span><span class="token builtin class-name">printf</span> %s <span class="token string">"<span class="token variable">$date</span>"</span><span class="token punctuation">)</span> <span class="token operator">&#x3C;</span><span class="token punctuation">(</span><span class="token builtin class-name">printf</span> %s <span class="token string">"<span class="token variable">$protection</span>"</span><span class="token punctuation">)</span> <span class="token operator">&#x3C;</span><span class="token punctuation">(</span><span class="token builtin class-name">printf</span> %s <span class="token string">"<span class="token variable">$owner</span>"</span><span class="token punctuation">)</span> <span class="token operator">|</span> <span class="token function">column</span> -t
+
+<span class="token assign-left variable">totalFiles</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">ls</span> $dirname <span class="token operator">|</span> <span class="token function">wc</span> -l<span class="token variable">)</span></span>
+<span class="token assign-left variable">totalSpace</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">du</span> $dirname -sh<span class="token variable">)</span></span>
+
+<span class="token builtin class-name">printf</span> <span class="token string">"<span class="token entity" title="\n">\n</span>Total files in a directory is: "</span>
+<span class="token builtin class-name">printf</span> <span class="token variable">$totalFiles</span>
+
+<span class="token builtin class-name">printf</span> <span class="token string">"<span class="token entity" title="\n">\n</span>"</span>
+
+<span class="token builtin class-name">printf</span> <span class="token string">"<span class="token entity" title="\n">\n</span>Total space of a directory is: "</span>
+<span class="token builtin class-name">printf</span> <span class="token variable">$totalSpace</span>
+
+<span class="token builtin class-name">printf</span> <span class="token string">"<span class="token entity" title="\n">\n</span>"</span>
+</code></pre>
+<h2 id="q5"><a aria-hidden="true" class="anchor-heading" href="#q5"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Q5</h2><span id="navId" data="sX5HCJQCQctqtxtSOOdo6"></span>
 
                 
       </section>

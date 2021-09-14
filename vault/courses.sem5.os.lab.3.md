@@ -2,7 +2,7 @@
 id: sX5HCJQCQctqtxtSOOdo6
 title: 'Lab 3'
 desc: ''
-updated: 1631389004476
+updated: 1631631294203
 created: 1631178674787
 ---
 
@@ -177,3 +177,4 @@ printf $totalSpace
 
 printf "\n"
 ``` 
+## Q5
