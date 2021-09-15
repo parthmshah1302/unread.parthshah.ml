@@ -2,7 +2,7 @@
 id: sX5HCJQCQctqtxtSOOdo6
 title: 'Lab 3'
 desc: ''
-updated: 1631631294203
+updated: 1631703196190
 created: 1631178674787
 ---
 
@@ -178,3 +178,156 @@ printf $totalSpace
 printf "\n"
 ``` 
 ## Q5
+```bash
+#!/usr/bin/env bash
+# Parth Shah AU1940065
+cat << "EOF"
+
+██████╗  █████╗ ██████╗ ████████╗██╗  ██╗    ███████╗██╗  ██╗ █████╗ ██╗  ██╗    
+██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██║  ██║    ██╔════╝██║  ██║██╔══██╗██║  ██║    
+██████╔╝███████║██████╔╝   ██║   ███████║    ███████╗███████║███████║███████║    
+██╔═══╝ ██╔══██║██╔══██╗   ██║   ██╔══██║    ╚════██║██╔══██║██╔══██║██╔══██║    
+██║     ██║  ██║██║  ██║   ██║   ██║  ██║    ███████║██║  ██║██║  ██║██║  ██║    
+╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝    
+                                                                                 
+ █████╗ ██╗   ██╗ ██╗ █████╗ ██╗  ██╗ ██████╗  ██████╗  ██████╗ ███████╗         
+██╔══██╗██║   ██║███║██╔══██╗██║  ██║██╔═████╗██╔═████╗██╔════╝ ██╔════╝         
+███████║██║   ██║╚██║╚██████║███████║██║██╔██║██║██╔██║███████╗ ███████╗         
+██╔══██║██║   ██║ ██║ ╚═══██║╚════██║████╔╝██║████╔╝██║██╔═══██╗╚════██║         
+██║  ██║╚██████╔╝ ██║ █████╔╝     ██║╚██████╔╝╚██████╔╝╚██████╔╝███████║         
+╚═╝  ╚═╝ ╚═════╝  ╚═╝ ╚════╝      ╚═╝ ╚═════╝  ╚═════╝  ╚═════╝ ╚══════╝         
+                                                                                 
+EOF
+
+declare -i flag=1
+
+read -r -d '' menu << EOM
+\n a. Display Current Directory\n
+b. List Directory\n
+c. Make a new directory\n
+d. Change directory\n
+e. Copy File\n
+f. Rename File\n
+g. Delete File\n
+h. Edit content of File\n
+i. Exit\n
+EOM
+
+
+
+while [ $flag -eq 1 ]
+do
+    echo -e $menu 
+    echo -e "\e[1mEnter your command: \e[0m"
+    read inpcommand 
+    if [ "$inpcommand" = "a" ]
+    then 
+        echo -e "\e[3m\n Only those who wander find new paths. Here is yours\n\e[0m"
+        pwd
+    elif [ "$inpcommand" = "b" ]
+    then
+        ls 
+    elif [ "$inpcommand" = "c" ]
+    then
+        echo -e "What would you like to name it, Joe?"
+        read dirName 
+        mkdir $dirName 
+        echo -e "\n$dirName was succesfully incanted." 
+    elif [ "$inpcommand" = "d" ]
+    then
+        declare -i cdFlag=1
+        while [ $cdFlag -eq 1 ]
+        do 
+            echo -e "Where does thy wish to go?"
+            read changeDir
+            if [ -d "$changeDir" ] 
+            then
+                cd $changeDir
+                echo -e "Hope you had a horrible journey. "
+                cdFlag=0
+            else 
+                echo -e "No such thing exists. Get sober and try again!"
+            fi
+        done    
+    elif [ "$inpcommand" = "e" ]
+    then
+        declare -i sourceFilePathFlag=1
+        while [ $sourceFilePathFlag -eq 1 ]
+        do 
+            echo -e "Enter the source file path."
+            read sourceFilePath 
+            if [ -f $sourceFilePath ] 
+            then 
+                echo -e "Enter the destination directory"
+                read destinationFilePath
+                if [ -d $destinationFilePath ]
+                then
+                    cp -p $sourceFilePath $destinationFilePath/
+                    echo -e "\nIt's known as Originality. You should try it sometime."
+                    destinationFileFlag=0
+                else 
+                    echo -e "Enter a valid destination directory."
+                fi
+                sourceFilePathFlag=0
+            else
+                echo -e "Enter a valid source file path."
+            fi
+        done
+    elif [ "$inpcommand" = "f" ]
+    then
+        declare -i sourceFilePathFlag=1
+        while [ $sourceFilePathFlag -eq 1 ]
+        do 
+            echo -e "Enter the source file path."
+            read sourceFilePath 
+            if [ -f $sourceFilePath ] 
+            then 
+                echo -e "Enter the new name that you would like"
+                read newName
+                mv $sourceFilePath $newName
+                sourceFilePathFlag=0
+            else
+                echo -e "Enter a valid source file path."
+            fi
+        done
+    elif [ "$inpcommand" = "g" ]
+    then
+        declare -i deleteFileFlag=1
+        while [ $deleteFileFlag -eq 1 ]
+        do
+            echo -e "Enter the path of file that you want to delete"
+            read deleteFilePath
+            if [ -f $deleteFilePath ]
+            then
+                rm $deleteFilePath
+                echo -e "The file has been deleted!"
+                deleteFileFlag=0
+            else 
+                echo -e "No such file exists"
+            fi
+        done
+    elif [ "$inpcommand" = "h" ]
+    then
+        declare -i editFileFlag=1
+        while [ $editFileFlag -eq 1 ]
+        do
+            echo -e "Enter the path of file that you want to edit"
+            read deleteFilePath
+            if [ -f $deleteFilePath ]
+            then
+                nano $deleteFilePath
+                echo -e "The file has been edited!"
+                editFileFlag=0
+            else 
+                echo -e "No such file exists"
+            fi
+        done
+    elif [ "$inpcommand" = "i" ]
+    then 
+        flag=0
+        echo -e "See you later, alligator!"
+    else 
+        echo -e "Enter something from the list, you jack!"
+    fi
+done
+```

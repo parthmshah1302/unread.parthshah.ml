@@ -132,7 +132,7 @@
       
         
           <nav aria-label="Breadcrumb" class="breadcrumb-nav">
-            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://unread.parthshah.ml">Welcome to Unread 👾</a></li><li class="breadcrumb-nav-list-item"><a href="https://unread.parthshah.ml/notes\9MM7YZXp6aLHpfrPgwfil.html">Courses</a></li><li class="breadcrumb-nav-list-item"><a href="https://unread.parthshah.ml/notes\h9FhyD7JWCWOcmTkZ9uFF.html">Semester 5</a></li><li class="breadcrumb-nav-list-item"><a href="https://unread.parthshah.ml/notes\jIDlfSvdGxTvOlx6n7sFv.html">Operating Systems</a></li><li class="breadcrumb-nav-list-item"><a href="https://unread.parthshah.ml/notes\Oq8O2HrTTO85jbxalzXOf.html">Lab</a></li><li class="breadcrumb-nav-list-item">Lab 3</li></ol>
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://unread.parthshah.ml">Welcome to Unread 👾</a></li><li class="breadcrumb-nav-list-item"><a href="https://unread.parthshah.ml/notes/9MM7YZXp6aLHpfrPgwfil.html">Courses</a></li><li class="breadcrumb-nav-list-item"><a href="https://unread.parthshah.ml/notes/h9FhyD7JWCWOcmTkZ9uFF.html">Semester 5</a></li><li class="breadcrumb-nav-list-item"><a href="https://unread.parthshah.ml/notes/jIDlfSvdGxTvOlx6n7sFv.html">Operating Systems</a></li><li class="breadcrumb-nav-list-item"><a href="https://unread.parthshah.ml/notes/Oq8O2HrTTO85jbxalzXOf.html">Lab</a></li><li class="breadcrumb-nav-list-item">Lab 3</li></ol>
           </nav>
         
       
@@ -171,7 +171,7 @@
     <meta itemprop="headline" content="Lab 3">
     
     <meta itemprop="datePublished" content="2021-09-09T14:41:14+00:00">
-    <meta itemprop="dateModified" content="2021-09-14T20:24:54+00:00">
+    <meta itemprop="dateModified" content="2021-09-15T16:23:16+00:00">
 
     <div class="page__inner-wrap">
 
@@ -348,7 +348,159 @@ EOF</span>
 
 <span class="token builtin class-name">printf</span> <span class="token string">"<span class="token entity" title="\n">\n</span>"</span>
 </code></pre>
-<h2 id="q5"><a aria-hidden="true" class="anchor-heading" href="#q5"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Q5</h2><span id="navId" data="sX5HCJQCQctqtxtSOOdo6"></span>
+<h2 id="q5"><a aria-hidden="true" class="anchor-heading" href="#q5"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Q5</h2>
+<pre class="language-bash"><code class="language-bash"><span class="token shebang important">#!/usr/bin/env bash</span>
+<span class="token comment"># Parth Shah AU1940065</span>
+<span class="token function">cat</span> <span class="token operator">&#x3C;&#x3C;</span> <span class="token string">"EOF"
+
+██████╗  █████╗ ██████╗ ████████╗██╗  ██╗    ███████╗██╗  ██╗ █████╗ ██╗  ██╗    
+██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██║  ██║    ██╔════╝██║  ██║██╔══██╗██║  ██║    
+██████╔╝███████║██████╔╝   ██║   ███████║    ███████╗███████║███████║███████║    
+██╔═══╝ ██╔══██║██╔══██╗   ██║   ██╔══██║    ╚════██║██╔══██║██╔══██║██╔══██║    
+██║     ██║  ██║██║  ██║   ██║   ██║  ██║    ███████║██║  ██║██║  ██║██║  ██║    
+╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝    
+                                                                                 
+ █████╗ ██╗   ██╗ ██╗ █████╗ ██╗  ██╗ ██████╗  ██████╗  ██████╗ ███████╗         
+██╔══██╗██║   ██║███║██╔══██╗██║  ██║██╔═████╗██╔═████╗██╔════╝ ██╔════╝         
+███████║██║   ██║╚██║╚██████║███████║██║██╔██║██║██╔██║███████╗ ███████╗         
+██╔══██║██║   ██║ ██║ ╚═══██║╚════██║████╔╝██║████╔╝██║██╔═══██╗╚════██║         
+██║  ██║╚██████╔╝ ██║ █████╔╝     ██║╚██████╔╝╚██████╔╝╚██████╔╝███████║         
+╚═╝  ╚═╝ ╚═════╝  ╚═╝ ╚════╝      ╚═╝ ╚═════╝  ╚═════╝  ╚═════╝ ╚══════╝         
+                                                                                 
+EOF</span>
+
+<span class="token builtin class-name">declare</span> -i <span class="token assign-left variable">flag</span><span class="token operator">=</span><span class="token number">1</span>
+
+<span class="token builtin class-name">read</span> -r -d <span class="token string">''</span> menu <span class="token operator">&#x3C;&#x3C;</span> <span class="token string">EOM
+<span class="token entity" title="\n">\n</span> a. Display Current Directory<span class="token entity" title="\n">\n</span>
+b. List Directory<span class="token entity" title="\n">\n</span>
+c. Make a new directory<span class="token entity" title="\n">\n</span>
+d. Change directory<span class="token entity" title="\n">\n</span>
+e. Copy File<span class="token entity" title="\n">\n</span>
+f. Rename File<span class="token entity" title="\n">\n</span>
+g. Delete File<span class="token entity" title="\n">\n</span>
+h. Edit content of File<span class="token entity" title="\n">\n</span>
+i. Exit<span class="token entity" title="\n">\n</span>
+EOM</span>
+
+
+
+<span class="token keyword">while</span> <span class="token punctuation">[</span> <span class="token variable">$flag</span> -eq <span class="token number">1</span> <span class="token punctuation">]</span>
+<span class="token keyword">do</span>
+    <span class="token builtin class-name">echo</span> -e <span class="token variable">$menu</span> 
+    <span class="token builtin class-name">echo</span> -e <span class="token string">"<span class="token entity" title="\e">\e</span>[1mEnter your command: <span class="token entity" title="\e">\e</span>[0m"</span>
+    <span class="token builtin class-name">read</span> inpcommand 
+    <span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token string">"<span class="token variable">$inpcommand</span>"</span> <span class="token operator">=</span> <span class="token string">"a"</span> <span class="token punctuation">]</span>
+    <span class="token keyword">then</span> 
+        <span class="token builtin class-name">echo</span> -e <span class="token string">"<span class="token entity" title="\e">\e</span>[3m<span class="token entity" title="\n">\n</span> Only those who wander find new paths. Here is yours<span class="token entity" title="\n">\n</span><span class="token entity" title="\e">\e</span>[0m"</span>
+        <span class="token builtin class-name">pwd</span>
+    <span class="token keyword">elif</span> <span class="token punctuation">[</span> <span class="token string">"<span class="token variable">$inpcommand</span>"</span> <span class="token operator">=</span> <span class="token string">"b"</span> <span class="token punctuation">]</span>
+    <span class="token keyword">then</span>
+        <span class="token function">ls</span> 
+    <span class="token keyword">elif</span> <span class="token punctuation">[</span> <span class="token string">"<span class="token variable">$inpcommand</span>"</span> <span class="token operator">=</span> <span class="token string">"c"</span> <span class="token punctuation">]</span>
+    <span class="token keyword">then</span>
+        <span class="token builtin class-name">echo</span> -e <span class="token string">"What would you like to name it, Joe?"</span>
+        <span class="token builtin class-name">read</span> dirName 
+        <span class="token function">mkdir</span> <span class="token variable">$dirName</span> 
+        <span class="token builtin class-name">echo</span> -e <span class="token string">"<span class="token entity" title="\n">\n</span><span class="token variable">$dirName</span> was succesfully incanted."</span> 
+    <span class="token keyword">elif</span> <span class="token punctuation">[</span> <span class="token string">"<span class="token variable">$inpcommand</span>"</span> <span class="token operator">=</span> <span class="token string">"d"</span> <span class="token punctuation">]</span>
+    <span class="token keyword">then</span>
+        <span class="token builtin class-name">declare</span> -i <span class="token assign-left variable">cdFlag</span><span class="token operator">=</span><span class="token number">1</span>
+        <span class="token keyword">while</span> <span class="token punctuation">[</span> <span class="token variable">$cdFlag</span> -eq <span class="token number">1</span> <span class="token punctuation">]</span>
+        <span class="token keyword">do</span> 
+            <span class="token builtin class-name">echo</span> -e <span class="token string">"Where does thy wish to go?"</span>
+            <span class="token builtin class-name">read</span> changeDir
+            <span class="token keyword">if</span> <span class="token punctuation">[</span> -d <span class="token string">"<span class="token variable">$changeDir</span>"</span> <span class="token punctuation">]</span> 
+            <span class="token keyword">then</span>
+                <span class="token builtin class-name">cd</span> <span class="token variable">$changeDir</span>
+                <span class="token builtin class-name">echo</span> -e <span class="token string">"Hope you had a horrible journey. "</span>
+                <span class="token assign-left variable">cdFlag</span><span class="token operator">=</span><span class="token number">0</span>
+            <span class="token keyword">else</span> 
+                <span class="token builtin class-name">echo</span> -e <span class="token string">"No such thing exists. Get sober and try again!"</span>
+            <span class="token keyword">fi</span>
+        <span class="token keyword">done</span>    
+    <span class="token keyword">elif</span> <span class="token punctuation">[</span> <span class="token string">"<span class="token variable">$inpcommand</span>"</span> <span class="token operator">=</span> <span class="token string">"e"</span> <span class="token punctuation">]</span>
+    <span class="token keyword">then</span>
+        <span class="token builtin class-name">declare</span> -i <span class="token assign-left variable">sourceFilePathFlag</span><span class="token operator">=</span><span class="token number">1</span>
+        <span class="token keyword">while</span> <span class="token punctuation">[</span> <span class="token variable">$sourceFilePathFlag</span> -eq <span class="token number">1</span> <span class="token punctuation">]</span>
+        <span class="token keyword">do</span> 
+            <span class="token builtin class-name">echo</span> -e <span class="token string">"Enter the source file path."</span>
+            <span class="token builtin class-name">read</span> sourceFilePath 
+            <span class="token keyword">if</span> <span class="token punctuation">[</span> -f <span class="token variable">$sourceFilePath</span> <span class="token punctuation">]</span> 
+            <span class="token keyword">then</span> 
+                <span class="token builtin class-name">echo</span> -e <span class="token string">"Enter the destination directory"</span>
+                <span class="token builtin class-name">read</span> destinationFilePath
+                <span class="token keyword">if</span> <span class="token punctuation">[</span> -d <span class="token variable">$destinationFilePath</span> <span class="token punctuation">]</span>
+                <span class="token keyword">then</span>
+                    <span class="token function">cp</span> -p <span class="token variable">$sourceFilePath</span> <span class="token variable">$destinationFilePath</span>/
+                    <span class="token builtin class-name">echo</span> -e <span class="token string">"<span class="token entity" title="\n">\n</span>It's known as Originality. You should try it sometime."</span>
+                    <span class="token assign-left variable">destinationFileFlag</span><span class="token operator">=</span><span class="token number">0</span>
+                <span class="token keyword">else</span> 
+                    <span class="token builtin class-name">echo</span> -e <span class="token string">"Enter a valid destination directory."</span>
+                <span class="token keyword">fi</span>
+                <span class="token assign-left variable">sourceFilePathFlag</span><span class="token operator">=</span><span class="token number">0</span>
+            <span class="token keyword">else</span>
+                <span class="token builtin class-name">echo</span> -e <span class="token string">"Enter a valid source file path."</span>
+            <span class="token keyword">fi</span>
+        <span class="token keyword">done</span>
+    <span class="token keyword">elif</span> <span class="token punctuation">[</span> <span class="token string">"<span class="token variable">$inpcommand</span>"</span> <span class="token operator">=</span> <span class="token string">"f"</span> <span class="token punctuation">]</span>
+    <span class="token keyword">then</span>
+        <span class="token builtin class-name">declare</span> -i <span class="token assign-left variable">sourceFilePathFlag</span><span class="token operator">=</span><span class="token number">1</span>
+        <span class="token keyword">while</span> <span class="token punctuation">[</span> <span class="token variable">$sourceFilePathFlag</span> -eq <span class="token number">1</span> <span class="token punctuation">]</span>
+        <span class="token keyword">do</span> 
+            <span class="token builtin class-name">echo</span> -e <span class="token string">"Enter the source file path."</span>
+            <span class="token builtin class-name">read</span> sourceFilePath 
+            <span class="token keyword">if</span> <span class="token punctuation">[</span> -f <span class="token variable">$sourceFilePath</span> <span class="token punctuation">]</span> 
+            <span class="token keyword">then</span> 
+                <span class="token builtin class-name">echo</span> -e <span class="token string">"Enter the new name that you would like"</span>
+                <span class="token builtin class-name">read</span> newName
+                <span class="token function">mv</span> <span class="token variable">$sourceFilePath</span> <span class="token variable">$newName</span>
+                <span class="token assign-left variable">sourceFilePathFlag</span><span class="token operator">=</span><span class="token number">0</span>
+            <span class="token keyword">else</span>
+                <span class="token builtin class-name">echo</span> -e <span class="token string">"Enter a valid source file path."</span>
+            <span class="token keyword">fi</span>
+        <span class="token keyword">done</span>
+    <span class="token keyword">elif</span> <span class="token punctuation">[</span> <span class="token string">"<span class="token variable">$inpcommand</span>"</span> <span class="token operator">=</span> <span class="token string">"g"</span> <span class="token punctuation">]</span>
+    <span class="token keyword">then</span>
+        <span class="token builtin class-name">declare</span> -i <span class="token assign-left variable">deleteFileFlag</span><span class="token operator">=</span><span class="token number">1</span>
+        <span class="token keyword">while</span> <span class="token punctuation">[</span> <span class="token variable">$deleteFileFlag</span> -eq <span class="token number">1</span> <span class="token punctuation">]</span>
+        <span class="token keyword">do</span>
+            <span class="token builtin class-name">echo</span> -e <span class="token string">"Enter the path of file that you want to delete"</span>
+            <span class="token builtin class-name">read</span> deleteFilePath
+            <span class="token keyword">if</span> <span class="token punctuation">[</span> -f <span class="token variable">$deleteFilePath</span> <span class="token punctuation">]</span>
+            <span class="token keyword">then</span>
+                <span class="token function">rm</span> <span class="token variable">$deleteFilePath</span>
+                <span class="token builtin class-name">echo</span> -e <span class="token string">"The file has been deleted!"</span>
+                <span class="token assign-left variable">deleteFileFlag</span><span class="token operator">=</span><span class="token number">0</span>
+            <span class="token keyword">else</span> 
+                <span class="token builtin class-name">echo</span> -e <span class="token string">"No such file exists"</span>
+            <span class="token keyword">fi</span>
+        <span class="token keyword">done</span>
+    <span class="token keyword">elif</span> <span class="token punctuation">[</span> <span class="token string">"<span class="token variable">$inpcommand</span>"</span> <span class="token operator">=</span> <span class="token string">"h"</span> <span class="token punctuation">]</span>
+    <span class="token keyword">then</span>
+        <span class="token builtin class-name">declare</span> -i <span class="token assign-left variable">editFileFlag</span><span class="token operator">=</span><span class="token number">1</span>
+        <span class="token keyword">while</span> <span class="token punctuation">[</span> <span class="token variable">$editFileFlag</span> -eq <span class="token number">1</span> <span class="token punctuation">]</span>
+        <span class="token keyword">do</span>
+            <span class="token builtin class-name">echo</span> -e <span class="token string">"Enter the path of file that you want to edit"</span>
+            <span class="token builtin class-name">read</span> deleteFilePath
+            <span class="token keyword">if</span> <span class="token punctuation">[</span> -f <span class="token variable">$deleteFilePath</span> <span class="token punctuation">]</span>
+            <span class="token keyword">then</span>
+                <span class="token function">nano</span> <span class="token variable">$deleteFilePath</span>
+                <span class="token builtin class-name">echo</span> -e <span class="token string">"The file has been edited!"</span>
+                <span class="token assign-left variable">editFileFlag</span><span class="token operator">=</span><span class="token number">0</span>
+            <span class="token keyword">else</span> 
+                <span class="token builtin class-name">echo</span> -e <span class="token string">"No such file exists"</span>
+            <span class="token keyword">fi</span>
+        <span class="token keyword">done</span>
+    <span class="token keyword">elif</span> <span class="token punctuation">[</span> <span class="token string">"<span class="token variable">$inpcommand</span>"</span> <span class="token operator">=</span> <span class="token string">"i"</span> <span class="token punctuation">]</span>
+    <span class="token keyword">then</span> 
+        <span class="token assign-left variable">flag</span><span class="token operator">=</span><span class="token number">0</span>
+        <span class="token builtin class-name">echo</span> -e <span class="token string">"See you later, alligator!"</span>
+    <span class="token keyword">else</span> 
+        <span class="token builtin class-name">echo</span> -e <span class="token string">"Enter something from the list, you jack!"</span>
+    <span class="token keyword">fi</span>
+<span class="token keyword">done</span>
+</code></pre><span id="navId" data="sX5HCJQCQctqtxtSOOdo6"></span>
 
                 
       </section>
