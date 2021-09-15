@@ -2,7 +2,7 @@
 id: sX5HCJQCQctqtxtSOOdo6
 title: 'Lab 3'
 desc: ''
-updated: 1631719935973
+updated: 1631731518866
 created: 1631178674787
 ---
 
@@ -12,24 +12,7 @@ created: 1631178674787
 ```bash
 #!/usr/bin/env bash
 # Parth Shah AU1940065
-cat << "EOF"
 
-██████╗  █████╗ ██████╗ ████████╗██╗  ██╗    ███████╗██╗  ██╗ █████╗ ██╗  ██╗    
-██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██║  ██║    ██╔════╝██║  ██║██╔══██╗██║  ██║    
-██████╔╝███████║██████╔╝   ██║   ███████║    ███████╗███████║███████║███████║    
-██╔═══╝ ██╔══██║██╔══██╗   ██║   ██╔══██║    ╚════██║██╔══██║██╔══██║██╔══██║    
-██║     ██║  ██║██║  ██║   ██║   ██║  ██║    ███████║██║  ██║██║  ██║██║  ██║    
-╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝    
-                                                                                 
- █████╗ ██╗   ██╗ ██╗ █████╗ ██╗  ██╗ ██████╗  ██████╗  ██████╗ ███████╗         
-██╔══██╗██║   ██║███║██╔══██╗██║  ██║██╔═████╗██╔═████╗██╔════╝ ██╔════╝         
-███████║██║   ██║╚██║╚██████║███████║██║██╔██║██║██╔██║███████╗ ███████╗         
-██╔══██║██║   ██║ ██║ ╚═══██║╚════██║████╔╝██║████╔╝██║██╔═══██╗╚════██║         
-██║  ██║╚██████╔╝ ██║ █████╔╝     ██║╚██████╔╝╚██████╔╝╚██████╔╝███████║         
-╚═╝  ╚═╝ ╚═════╝  ╚═╝ ╚════╝      ╚═╝ ╚═════╝  ╚═════╝  ╚═════╝ ╚══════╝         
-                                                                                 
-
-EOF
 DIR="/home/parth/Desktop/Code/OS-Labs/Lab3/"
 if [ -d "$DIR" ]; then 
     echo "The directory is found"
@@ -38,29 +21,13 @@ if [ -d "$DIR" ]; then
 else 
     echo "No directory found"
 fi
-``` 
+```
+[Q1 Output Image](/home/parth/Desktop/Code/OS-Labs/Lab3/q1/q_1.png)
 # Q2
 ```bash
 #!/usr/bin/env bash
 # Parth Shah AU1940065
-cat << "EOF"
 
-██████╗  █████╗ ██████╗ ████████╗██╗  ██╗    ███████╗██╗  ██╗ █████╗ ██╗  ██╗    
-██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██║  ██║    ██╔════╝██║  ██║██╔══██╗██║  ██║    
-██████╔╝███████║██████╔╝   ██║   ███████║    ███████╗███████║███████║███████║    
-██╔═══╝ ██╔══██║██╔══██╗   ██║   ██╔══██║    ╚════██║██╔══██║██╔══██║██╔══██║    
-██║     ██║  ██║██║  ██║   ██║   ██║  ██║    ███████║██║  ██║██║  ██║██║  ██║    
-╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝    
-                                                                                 
- █████╗ ██╗   ██╗ ██╗ █████╗ ██╗  ██╗ ██████╗  ██████╗  ██████╗ ███████╗         
-██╔══██╗██║   ██║███║██╔══██╗██║  ██║██╔═████╗██╔═████╗██╔════╝ ██╔════╝         
-███████║██║   ██║╚██║╚██████║███████║██║██╔██║██║██╔██║███████╗ ███████╗         
-██╔══██║██║   ██║ ██║ ╚═══██║╚════██║████╔╝██║████╔╝██║██╔═══██╗╚════██║         
-██║  ██║╚██████╔╝ ██║ █████╔╝     ██║╚██████╔╝╚██████╔╝╚██████╔╝███████║         
-╚═╝  ╚═╝ ╚═════╝  ╚═╝ ╚════╝      ╚═╝ ╚═════╝  ╚═════╝  ╚═════╝ ╚══════╝         
-                                                                                 
-
-EOF
 read -p "enter value of dir1: " dir1
 read -p "enter value of dir2: " dir2
 if [[ -d "$dir1" ]] && [[ -d "$dir2" ]]; then
@@ -71,29 +38,13 @@ if [[ -d "$dir1" ]] && [[ -d "$dir2" ]]; then
 else
     echo "Either directory does not exist"
 fi
-``` 
+```
+[Q2 Output Image](/home/parth/Desktop/Code/OS-Labs/Lab3/q2/q_2.png)
 # Q3
 ```bash
 #!/usr/bin/env bash
 # Parth Shah AU1940065
-cat << "EOF"
 
-██████╗  █████╗ ██████╗ ████████╗██╗  ██╗    ███████╗██╗  ██╗ █████╗ ██╗  ██╗    
-██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██║  ██║    ██╔════╝██║  ██║██╔══██╗██║  ██║    
-██████╔╝███████║██████╔╝   ██║   ███████║    ███████╗███████║███████║███████║    
-██╔═══╝ ██╔══██║██╔══██╗   ██║   ██╔══██║    ╚════██║██╔══██║██╔══██║██╔══██║    
-██║     ██║  ██║██║  ██║   ██║   ██║  ██║    ███████║██║  ██║██║  ██║██║  ██║    
-╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝    
-                                                                                 
- █████╗ ██╗   ██╗ ██╗ █████╗ ██╗  ██╗ ██████╗  ██████╗  ██████╗ ███████╗         
-██╔══██╗██║   ██║███║██╔══██╗██║  ██║██╔═████╗██╔═████╗██╔════╝ ██╔════╝         
-███████║██║   ██║╚██║╚██████║███████║██║██╔██║██║██╔██║███████╗ ███████╗         
-██╔══██║██║   ██║ ██║ ╚═══██║╚════██║████╔╝██║████╔╝██║██╔═══██╗╚════██║         
-██║  ██║╚██████╔╝ ██║ █████╔╝     ██║╚██████╔╝╚██████╔╝╚██████╔╝███████║         
-╚═╝  ╚═╝ ╚═════╝  ╚═╝ ╚════╝      ╚═╝ ╚═════╝  ╚═════╝  ╚═════╝ ╚══════╝         
-                                                                                 
-
-EOF
 read -p "enter time interval: " interval
 read -p "enter number of times: " howmany
 gcc q3_hello.c
@@ -101,29 +52,12 @@ for ((i=1; i<=$howmany; i++))
     do gcc q3_hello.c && ./a.out;
     sleep $interval; 
 done
-``` 
+```
+[Q3 Output Image](/home/parth/Desktop/Code/OS-Labs/Lab3/q3/q_3.png)
 # Q4
 ```bash
 #!/usr/bin/env bash 
 # Parth Shah AU1940065
-cat << "EOF"
-
-██████╗  █████╗ ██████╗ ████████╗██╗  ██╗    ███████╗██╗  ██╗ █████╗ ██╗  ██╗    
-██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██║  ██║    ██╔════╝██║  ██║██╔══██╗██║  ██║    
-██████╔╝███████║██████╔╝   ██║   ███████║    ███████╗███████║███████║███████║    
-██╔═══╝ ██╔══██║██╔══██╗   ██║   ██╔══██║    ╚════██║██╔══██║██╔══██║██╔══██║    
-██║     ██║  ██║██║  ██║   ██║   ██║  ██║    ███████║██║  ██║██║  ██║██║  ██║    
-╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝    
-                                                                                 
- █████╗ ██╗   ██╗ ██╗ █████╗ ██╗  ██╗ ██████╗  ██████╗  ██████╗ ███████╗         
-██╔══██╗██║   ██║███║██╔══██╗██║  ██║██╔═████╗██╔═████╗██╔════╝ ██╔════╝         
-███████║██║   ██║╚██║╚██████║███████║██║██╔██║██║██╔██║███████╗ ███████╗         
-██╔══██║██║   ██║ ██║ ╚═══██║╚════██║████╔╝██║████╔╝██║██╔═══██╗╚════██║         
-██║  ██║╚██████╔╝ ██║ █████╔╝     ██║╚██████╔╝╚██████╔╝╚██████╔╝███████║         
-╚═╝  ╚═╝ ╚═════╝  ╚═╝ ╚════╝      ╚═╝ ╚═════╝  ╚═════╝  ╚═════╝ ╚══════╝         
-                                                                                 
-
-EOF
 
 read -p "Enter the directory name: " dirname
 # dirname="/home/parth/Desktop/Code/OS-Labs/Lab3"
@@ -139,12 +73,12 @@ cat << "EOF"
       /_/   /_/                                      
 
 EOF
-name=$(ls -lh $dirname | awk '{print  $9}')
-size=$(ls -lh $dirname | awk '{print  $5}')
-datemonth=$(ls -lh $dirname | awk '{print  $6}')
-datenum=$(ls -lh $dirname | awk '{print  $7}')
-protection=$(ls -lh $dirname | awk '{print  $1}')
-owner=$(ls -lh $dirname | awk '{print  $3}')
+name=$(ls -lR -a -lh $dirname | awk '{print  $9}')
+size=$(ls -lR -a -lh $dirname | awk '{print  $5}')
+datemonth=$(ls -lR -a -lh $dirname | awk '{print  $6}')
+datenum=$(ls -lR -a -lh $dirname | awk '{print  $7}')
+protection=$(ls -lR -a -lh $dirname | awk '{print  $1}')
+owner=$(ls -lR -a -lh $dirname | awk '{print  $3}')
 paste <(printf %s "$name") <(printf %s "$size") <(printf %s "$datemonth") <(printf %s "$datenum") <(printf %s "$protection") <(printf %s "$owner")
 
 cat << "EOF" 
@@ -164,7 +98,7 @@ protection=$(stat --printf="%A\n" $dirname/*)
 owner=$(stat --printf="%U\n" $dirname/*)
 paste <(printf %s "$name") <(printf %s "$size") <(printf %s "$date") <(printf %s "$protection") <(printf %s "$owner") | column -t
 
-totalFiles=$(ls $dirname | wc -l)
+totalFiles=$(ls -lR -a $dirname | wc -l)
 totalSpace=$(du $dirname -sh)
 
 printf "\nTotal files in a directory is: "
@@ -176,28 +110,12 @@ printf "\nTotal space of a directory is: "
 printf $totalSpace
 
 printf "\n"
-``` 
-## Q5
+```
+[Q4 Output Image](/home/parth/Desktop/Code/OS-Labs/Lab3/q4/q_4.png)
+# Q5
 ```bash
 #!/usr/bin/env bash
 # Parth Shah AU1940065
-cat << "EOF"
-
-██████╗  █████╗ ██████╗ ████████╗██╗  ██╗    ███████╗██╗  ██╗ █████╗ ██╗  ██╗    
-██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██║  ██║    ██╔════╝██║  ██║██╔══██╗██║  ██║    
-██████╔╝███████║██████╔╝   ██║   ███████║    ███████╗███████║███████║███████║    
-██╔═══╝ ██╔══██║██╔══██╗   ██║   ██╔══██║    ╚════██║██╔══██║██╔══██║██╔══██║    
-██║     ██║  ██║██║  ██║   ██║   ██║  ██║    ███████║██║  ██║██║  ██║██║  ██║    
-╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝    
-                                                                                 
- █████╗ ██╗   ██╗ ██╗ █████╗ ██╗  ██╗ ██████╗  ██████╗  ██████╗ ███████╗         
-██╔══██╗██║   ██║███║██╔══██╗██║  ██║██╔═████╗██╔═████╗██╔════╝ ██╔════╝         
-███████║██║   ██║╚██║╚██████║███████║██║██╔██║██║██╔██║███████╗ ███████╗         
-██╔══██║██║   ██║ ██║ ╚═══██║╚════██║████╔╝██║████╔╝██║██╔═══██╗╚════██║         
-██║  ██║╚██████╔╝ ██║ █████╔╝     ██║╚██████╔╝╚██████╔╝╚██████╔╝███████║         
-╚═╝  ╚═╝ ╚═════╝  ╚═╝ ╚════╝      ╚═╝ ╚═════╝  ╚═════╝  ╚═════╝ ╚══════╝         
-                                                                                 
-EOF
 
 declare -i flag=1
 
@@ -325,15 +243,94 @@ do
     elif [ "$inpcommand" = "i" ]
     then 
         flag=0
-        echo -e "See you later, alligator!"
+        echo -e "See you later!"
     else 
         echo -e "Enter something from the list, you jack!"
     fi
 done
 ```
+[Q5 Output Image](/home/parth/Desktop/Code/OS-Labs/Lab3/q5/q_5.png)
+# Q6
+```bash
+#!/usr/bin/env bash
+# Parth Shah AU1940065
 
-## Q7 
-```bash 
+read -r -d '' menu << EOM
+\n a. Print sorted list of users\n
+b. Count total number of users\n
+c. Search for any specific user and display no. of times the user logged in\n
+d. Check if any specific user is terminally active\n
+e. List all users without password\n
+f. Exit\n
+EOM
+
+declare -i flag=1
+
+while [ $flag -eq 1 ]
+do 
+    echo -e $menu 
+    echo -e "Enter your command: "
+    read menuCommand
+    if [[ "$menuCommand" == "a" ]]
+    then 
+        echo -e "\nThis is the sorted list of users\n"
+        cut -d: -f1 /etc/passwd | sort 
+    elif [[ "$menuCommand" == "b" ]]
+    then 
+        echo -e "\nThe total number of users are \e[1m$(cut -d: -f1 /etc/passwd | wc -l )\e[0m" 
+    elif [[ "$menuCommand" == "c" ]]
+    then 
+        declare -i usernameFlag=1
+        while [ $usernameFlag -eq 1 ]
+        do  
+            echo -e "Enter the username that you want to check: "
+            read username
+            userChecker=$(grep -c "$username" /etc/passwd)
+            if [ $userChecker -eq 1 ]
+            then
+                echo -e "\n The user $username has logged in $(last | grep "$username" | wc -l) times."
+                usernameFlag=0
+            else 
+                echo -e "Enter a valid user"
+            fi
+        done
+        
+    elif [[ "$menuCommand" == "d" ]]
+    then 
+        declare -i terminalFlag=1
+        while [ $terminalFlag -eq 1 ]
+        do  
+            echo -e "Enter the username that you want to check: "
+            read username
+            userChecker=$(grep -c "$username" /etc/passwd)
+            if [ $userChecker -eq 1 ]
+            then
+                ps aux | awk '{ print $1, $11 }' | grep 'bash\|-bash' | grep 'parth' | cat >> termChecker.txt
+                if grep -q "$username" termChecker.txt 
+                then 
+                    echo -e "The user is terminally active!"
+                fi
+            else 
+                echo -e "This user is inactive/invalid"
+            fi
+        done
+    elif [[ "$menuCommand" == "e" ]]
+    then 
+        echo -e "\nThe list of users without password are $(sudo getent shadow | grep -Po '^[^:]*(?=:.?:)')"
+    elif [[ "$menuCommand" == "f" ]]
+    then 
+        flag=0
+        echo -e "See you later!"
+    else 
+        echo -e "\nEnter a valid command from the list!"
+    fi
+done
+```
+[Q6 Output Image 1](/home/parth/Desktop/Code/OS-Labs/Lab3/q6/q_6_1.png)
+[Q6 Output Image 2](/home/parth/Desktop/Code/OS-Labs/Lab3/q6/q_6_2.png)
+[Q6 Output Image 3](/home/parth/Desktop/Code/OS-Labs/Lab3/q6/q_6_3.png)
+# Q7
+```bash
 #!/usr/bin/env bash
 # Parth Shah AU1940065
 
@@ -383,4 +380,5 @@ do
         echo -e "It does not exist. Try some other directory!"
     fi
 done
-````
+```
+[Q7 Output Image](/home/parth/Desktop/Code/OS-Labs/Lab3/q7/q_7.png)
