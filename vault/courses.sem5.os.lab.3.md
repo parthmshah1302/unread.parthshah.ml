@@ -2,7 +2,7 @@
 id: sX5HCJQCQctqtxtSOOdo6
 title: 'Lab 3'
 desc: ''
-updated: 1631709723620
+updated: 1631719935973
 created: 1631178674787
 ---
 
@@ -336,24 +336,6 @@ done
 ```bash 
 #!/usr/bin/env bash
 # Parth Shah AU1940065
-cat << "EOF"
-
-██████╗  █████╗ ██████╗ ████████╗██╗  ██╗    ███████╗██╗  ██╗ █████╗ ██╗  ██╗    
-██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██║  ██║    ██╔════╝██║  ██║██╔══██╗██║  ██║    
-██████╔╝███████║██████╔╝   ██║   ███████║    ███████╗███████║███████║███████║    
-██╔═══╝ ██╔══██║██╔══██╗   ██║   ██╔══██║    ╚════██║██╔══██║██╔══██║██╔══██║    
-██║     ██║  ██║██║  ██║   ██║   ██║  ██║    ███████║██║  ██║██║  ██║██║  ██║    
-╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝    
-                                                                                 
- █████╗ ██╗   ██╗ ██╗ █████╗ ██╗  ██╗ ██████╗  ██████╗  ██████╗ ███████╗         
-██╔══██╗██║   ██║███║██╔══██╗██║  ██║██╔═████╗██╔═████╗██╔════╝ ██╔════╝         
-███████║██║   ██║╚██║╚██████║███████║██║██╔██║██║██╔██║███████╗ ███████╗         
-██╔══██║██║   ██║ ██║ ╚═══██║╚════██║████╔╝██║████╔╝██║██╔═══██╗╚════██║         
-██║  ██║╚██████╔╝ ██║ █████╔╝     ██║╚██████╔╝╚██████╔╝╚██████╔╝███████║         
-╚═╝  ╚═╝ ╚═════╝  ╚═╝ ╚════╝      ╚═╝ ╚═════╝  ╚═════╝  ╚═════╝ ╚══════╝         
-                                                                                 
-
-EOF
 
 alias la='ls -a'
 
@@ -363,7 +345,7 @@ b. Find files older than a particular date\n
 c. Exit\n
 
 EOM
-
+# /home/parth/Desktop/Code/OS-Labs/Lab3
 declare -i directoryNameFlag=1
 while [ $directoryNameFlag -eq 1 ]
 do 
@@ -382,14 +364,17 @@ do
             then
                 echo -e "Enter date to find files newer than this date (eg: sept 13, 2021):  "
                 read newerDate 
-                find . -type f -newermt "$newerDate" -iname ".*" -ls
+                newFiles=$(find $directoryName -type f -newermt "$newerDate" -iname "*.*" -ls | awk '{print  $11}')
+                echo -e "\n The files that are created after $newerDate are\n$newFiles"
             elif [ "$menuCommand" == "b" ]
             then 
                 echo -e "Enter date to find files older than this date (eg: sept 13, 2021): "
                 read olderDate 
-                find . -type f -not -newermt "$olderDate" -iname ".*" -ls
+                oldFiles=$(find $directoryName -type f -not -newermt "$olderDate" -iname "*.*" -ls | awk '{print $11}')
+                echo -e "\n The files that are created before $olderDate are\n$oldFiles"
+                
             else 
-                echo -e "See you later, alligator!"
+                echo -e "See you later!"
                 menuFlag=0
             fi  
         done 

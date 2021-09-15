@@ -171,7 +171,7 @@
     <meta itemprop="headline" content="Lab 3">
     
     <meta itemprop="datePublished" content="2021-09-09T14:41:14+00:00">
-    <meta itemprop="dateModified" content="2021-09-15T18:12:03+00:00">
+    <meta itemprop="dateModified" content="2021-09-15T21:02:15+00:00">
 
     <div class="page__inner-wrap">
 
@@ -504,24 +504,6 @@ EOM</span>
 <h2 id="q7"><a aria-hidden="true" class="anchor-heading" href="#q7"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Q7</h2>
 <pre class="language-bash"><code class="language-bash"><span class="token shebang important">#!/usr/bin/env bash</span>
 <span class="token comment"># Parth Shah AU1940065</span>
-<span class="token function">cat</span> <span class="token operator">&#x3C;&#x3C;</span> <span class="token string">"EOF"
-
-██████╗  █████╗ ██████╗ ████████╗██╗  ██╗    ███████╗██╗  ██╗ █████╗ ██╗  ██╗    
-██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██║  ██║    ██╔════╝██║  ██║██╔══██╗██║  ██║    
-██████╔╝███████║██████╔╝   ██║   ███████║    ███████╗███████║███████║███████║    
-██╔═══╝ ██╔══██║██╔══██╗   ██║   ██╔══██║    ╚════██║██╔══██║██╔══██║██╔══██║    
-██║     ██║  ██║██║  ██║   ██║   ██║  ██║    ███████║██║  ██║██║  ██║██║  ██║    
-╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝    
-                                                                                 
- █████╗ ██╗   ██╗ ██╗ █████╗ ██╗  ██╗ ██████╗  ██████╗  ██████╗ ███████╗         
-██╔══██╗██║   ██║███║██╔══██╗██║  ██║██╔═████╗██╔═████╗██╔════╝ ██╔════╝         
-███████║██║   ██║╚██║╚██████║███████║██║██╔██║██║██╔██║███████╗ ███████╗         
-██╔══██║██║   ██║ ██║ ╚═══██║╚════██║████╔╝██║████╔╝██║██╔═══██╗╚════██║         
-██║  ██║╚██████╔╝ ██║ █████╔╝     ██║╚██████╔╝╚██████╔╝╚██████╔╝███████║         
-╚═╝  ╚═╝ ╚═════╝  ╚═╝ ╚════╝      ╚═╝ ╚═════╝  ╚═════╝  ╚═════╝ ╚══════╝         
-                                                                                 
-
-EOF</span>
 
 <span class="token builtin class-name">alias</span> <span class="token assign-left variable">la</span><span class="token operator">=</span><span class="token string">'ls -a'</span>
 
@@ -531,7 +513,7 @@ b. Find files older than a particular date<span class="token entity" title="\n">
 c. Exit<span class="token entity" title="\n">\n</span>
 
 EOM</span>
-
+<span class="token comment"># /home/parth/Desktop/Code/OS-Labs/Lab3</span>
 <span class="token builtin class-name">declare</span> -i <span class="token assign-left variable">directoryNameFlag</span><span class="token operator">=</span><span class="token number">1</span>
 <span class="token keyword">while</span> <span class="token punctuation">[</span> <span class="token variable">$directoryNameFlag</span> -eq <span class="token number">1</span> <span class="token punctuation">]</span>
 <span class="token keyword">do</span> 
@@ -550,14 +532,17 @@ EOM</span>
             <span class="token keyword">then</span>
                 <span class="token builtin class-name">echo</span> -e <span class="token string">"Enter date to find files newer than this date (eg: sept 13, 2021):  "</span>
                 <span class="token builtin class-name">read</span> newerDate 
-                <span class="token function">find</span> <span class="token builtin class-name">.</span> -type f -newermt <span class="token string">"<span class="token variable">$newerDate</span>"</span> -iname <span class="token string">".*"</span> -ls
+                <span class="token assign-left variable">newFiles</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">find</span> $directoryName -type f -newermt <span class="token string">"<span class="token variable">$newerDate</span>"</span> -iname <span class="token string">"*.*"</span> -ls <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">'{print  $11}'</span><span class="token variable">)</span></span>
+                <span class="token builtin class-name">echo</span> -e <span class="token string">"<span class="token entity" title="\n">\n</span> The files that are created after <span class="token variable">$newerDate</span> are<span class="token entity" title="\n">\n</span><span class="token variable">$newFiles</span>"</span>
             <span class="token keyword">elif</span> <span class="token punctuation">[</span> <span class="token string">"<span class="token variable">$menuCommand</span>"</span> <span class="token operator">==</span> <span class="token string">"b"</span> <span class="token punctuation">]</span>
             <span class="token keyword">then</span> 
                 <span class="token builtin class-name">echo</span> -e <span class="token string">"Enter date to find files older than this date (eg: sept 13, 2021): "</span>
                 <span class="token builtin class-name">read</span> olderDate 
-                <span class="token function">find</span> <span class="token builtin class-name">.</span> -type f -not -newermt <span class="token string">"<span class="token variable">$olderDate</span>"</span> -iname <span class="token string">".*"</span> -ls
+                <span class="token assign-left variable">oldFiles</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">find</span> $directoryName -type f -not -newermt <span class="token string">"<span class="token variable">$olderDate</span>"</span> -iname <span class="token string">"*.*"</span> -ls <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">'{print $11}'</span><span class="token variable">)</span></span>
+                <span class="token builtin class-name">echo</span> -e <span class="token string">"<span class="token entity" title="\n">\n</span> The files that are created before <span class="token variable">$olderDate</span> are<span class="token entity" title="\n">\n</span><span class="token variable">$oldFiles</span>"</span>
+                
             <span class="token keyword">else</span> 
-                <span class="token builtin class-name">echo</span> -e <span class="token string">"See you later, alligator!"</span>
+                <span class="token builtin class-name">echo</span> -e <span class="token string">"See you later!"</span>
                 <span class="token assign-left variable">menuFlag</span><span class="token operator">=</span><span class="token number">0</span>
             <span class="token keyword">fi</span>  
         <span class="token keyword">done</span> 
