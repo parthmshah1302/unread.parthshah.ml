@@ -171,7 +171,7 @@
     <meta itemprop="headline" content="Lab 3">
     
     <meta itemprop="datePublished" content="2021-09-09T14:41:14+00:00">
-    <meta itemprop="dateModified" content="2021-09-15T16:23:16+00:00">
+    <meta itemprop="dateModified" content="2021-09-15T18:12:03+00:00">
 
     <div class="page__inner-wrap">
 
@@ -498,6 +498,72 @@ EOM</span>
         <span class="token builtin class-name">echo</span> -e <span class="token string">"See you later, alligator!"</span>
     <span class="token keyword">else</span> 
         <span class="token builtin class-name">echo</span> -e <span class="token string">"Enter something from the list, you jack!"</span>
+    <span class="token keyword">fi</span>
+<span class="token keyword">done</span>
+</code></pre>
+<h2 id="q7"><a aria-hidden="true" class="anchor-heading" href="#q7"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Q7</h2>
+<pre class="language-bash"><code class="language-bash"><span class="token shebang important">#!/usr/bin/env bash</span>
+<span class="token comment"># Parth Shah AU1940065</span>
+<span class="token function">cat</span> <span class="token operator">&#x3C;&#x3C;</span> <span class="token string">"EOF"
+
+██████╗  █████╗ ██████╗ ████████╗██╗  ██╗    ███████╗██╗  ██╗ █████╗ ██╗  ██╗    
+██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██║  ██║    ██╔════╝██║  ██║██╔══██╗██║  ██║    
+██████╔╝███████║██████╔╝   ██║   ███████║    ███████╗███████║███████║███████║    
+██╔═══╝ ██╔══██║██╔══██╗   ██║   ██╔══██║    ╚════██║██╔══██║██╔══██║██╔══██║    
+██║     ██║  ██║██║  ██║   ██║   ██║  ██║    ███████║██║  ██║██║  ██║██║  ██║    
+╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝    
+                                                                                 
+ █████╗ ██╗   ██╗ ██╗ █████╗ ██╗  ██╗ ██████╗  ██████╗  ██████╗ ███████╗         
+██╔══██╗██║   ██║███║██╔══██╗██║  ██║██╔═████╗██╔═████╗██╔════╝ ██╔════╝         
+███████║██║   ██║╚██║╚██████║███████║██║██╔██║██║██╔██║███████╗ ███████╗         
+██╔══██║██║   ██║ ██║ ╚═══██║╚════██║████╔╝██║████╔╝██║██╔═══██╗╚════██║         
+██║  ██║╚██████╔╝ ██║ █████╔╝     ██║╚██████╔╝╚██████╔╝╚██████╔╝███████║         
+╚═╝  ╚═╝ ╚═════╝  ╚═╝ ╚════╝      ╚═╝ ╚═════╝  ╚═════╝  ╚═════╝ ╚══════╝         
+                                                                                 
+
+EOF</span>
+
+<span class="token builtin class-name">alias</span> <span class="token assign-left variable">la</span><span class="token operator">=</span><span class="token string">'ls -a'</span>
+
+<span class="token builtin class-name">read</span> -r -d <span class="token string">''</span> menu <span class="token operator">&#x3C;&#x3C;</span> <span class="token string">EOM
+<span class="token entity" title="\n">\n</span> a. Find files newer than a particular date<span class="token entity" title="\n">\n</span>
+b. Find files older than a particular date<span class="token entity" title="\n">\n</span>
+c. Exit<span class="token entity" title="\n">\n</span>
+
+EOM</span>
+
+<span class="token builtin class-name">declare</span> -i <span class="token assign-left variable">directoryNameFlag</span><span class="token operator">=</span><span class="token number">1</span>
+<span class="token keyword">while</span> <span class="token punctuation">[</span> <span class="token variable">$directoryNameFlag</span> -eq <span class="token number">1</span> <span class="token punctuation">]</span>
+<span class="token keyword">do</span> 
+    <span class="token builtin class-name">echo</span> -e <span class="token string">"Enter the name of directory"</span>
+    <span class="token builtin class-name">read</span> directoryName
+    <span class="token keyword">if</span> <span class="token punctuation">[</span> -d <span class="token variable">$directoryName</span> <span class="token punctuation">]</span>
+    <span class="token keyword">then</span>
+        <span class="token builtin class-name">cd</span> <span class="token variable">$directoryName</span>
+        <span class="token builtin class-name">declare</span> -i <span class="token assign-left variable">menuFlag</span><span class="token operator">=</span><span class="token number">1</span>
+        <span class="token keyword">while</span> <span class="token punctuation">[</span> <span class="token variable">$menuFlag</span> -eq <span class="token number">1</span> <span class="token punctuation">]</span>
+        <span class="token keyword">do</span> 
+            <span class="token builtin class-name">echo</span> -e <span class="token variable">$menu</span> 
+            <span class="token builtin class-name">echo</span> -e <span class="token string">"Enter your command: "</span> 
+            <span class="token builtin class-name">read</span> menuCommand 
+            <span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token string">"<span class="token variable">$menuCommand</span>"</span> <span class="token operator">==</span> <span class="token string">"a"</span> <span class="token punctuation">]</span>
+            <span class="token keyword">then</span>
+                <span class="token builtin class-name">echo</span> -e <span class="token string">"Enter date to find files newer than this date (eg: sept 13, 2021):  "</span>
+                <span class="token builtin class-name">read</span> newerDate 
+                <span class="token function">find</span> <span class="token builtin class-name">.</span> -type f -newermt <span class="token string">"<span class="token variable">$newerDate</span>"</span> -iname <span class="token string">".*"</span> -ls
+            <span class="token keyword">elif</span> <span class="token punctuation">[</span> <span class="token string">"<span class="token variable">$menuCommand</span>"</span> <span class="token operator">==</span> <span class="token string">"b"</span> <span class="token punctuation">]</span>
+            <span class="token keyword">then</span> 
+                <span class="token builtin class-name">echo</span> -e <span class="token string">"Enter date to find files older than this date (eg: sept 13, 2021): "</span>
+                <span class="token builtin class-name">read</span> olderDate 
+                <span class="token function">find</span> <span class="token builtin class-name">.</span> -type f -not -newermt <span class="token string">"<span class="token variable">$olderDate</span>"</span> -iname <span class="token string">".*"</span> -ls
+            <span class="token keyword">else</span> 
+                <span class="token builtin class-name">echo</span> -e <span class="token string">"See you later, alligator!"</span>
+                <span class="token assign-left variable">menuFlag</span><span class="token operator">=</span><span class="token number">0</span>
+            <span class="token keyword">fi</span>  
+        <span class="token keyword">done</span> 
+        <span class="token assign-left variable">directoryNameFlag</span><span class="token operator">=</span><span class="token number">0</span>
+    <span class="token keyword">else</span> 
+        <span class="token builtin class-name">echo</span> -e <span class="token string">"It does not exist. Try some other directory!"</span>
     <span class="token keyword">fi</span>
 <span class="token keyword">done</span>
 </code></pre><span id="navId" data="sX5HCJQCQctqtxtSOOdo6"></span>

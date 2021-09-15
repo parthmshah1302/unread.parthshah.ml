@@ -2,7 +2,7 @@
 id: sX5HCJQCQctqtxtSOOdo6
 title: 'Lab 3'
 desc: ''
-updated: 1631703196190
+updated: 1631709723620
 created: 1631178674787
 ---
 
@@ -331,3 +331,71 @@ do
     fi
 done
 ```
+
+## Q7 
+```bash 
+#!/usr/bin/env bash
+# Parth Shah AU1940065
+cat << "EOF"
+
+██████╗  █████╗ ██████╗ ████████╗██╗  ██╗    ███████╗██╗  ██╗ █████╗ ██╗  ██╗    
+██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██║  ██║    ██╔════╝██║  ██║██╔══██╗██║  ██║    
+██████╔╝███████║██████╔╝   ██║   ███████║    ███████╗███████║███████║███████║    
+██╔═══╝ ██╔══██║██╔══██╗   ██║   ██╔══██║    ╚════██║██╔══██║██╔══██║██╔══██║    
+██║     ██║  ██║██║  ██║   ██║   ██║  ██║    ███████║██║  ██║██║  ██║██║  ██║    
+╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝    
+                                                                                 
+ █████╗ ██╗   ██╗ ██╗ █████╗ ██╗  ██╗ ██████╗  ██████╗  ██████╗ ███████╗         
+██╔══██╗██║   ██║███║██╔══██╗██║  ██║██╔═████╗██╔═████╗██╔════╝ ██╔════╝         
+███████║██║   ██║╚██║╚██████║███████║██║██╔██║██║██╔██║███████╗ ███████╗         
+██╔══██║██║   ██║ ██║ ╚═══██║╚════██║████╔╝██║████╔╝██║██╔═══██╗╚════██║         
+██║  ██║╚██████╔╝ ██║ █████╔╝     ██║╚██████╔╝╚██████╔╝╚██████╔╝███████║         
+╚═╝  ╚═╝ ╚═════╝  ╚═╝ ╚════╝      ╚═╝ ╚═════╝  ╚═════╝  ╚═════╝ ╚══════╝         
+                                                                                 
+
+EOF
+
+alias la='ls -a'
+
+read -r -d '' menu << EOM
+\n a. Find files newer than a particular date\n
+b. Find files older than a particular date\n
+c. Exit\n
+
+EOM
+
+declare -i directoryNameFlag=1
+while [ $directoryNameFlag -eq 1 ]
+do 
+    echo -e "Enter the name of directory"
+    read directoryName
+    if [ -d $directoryName ]
+    then
+        cd $directoryName
+        declare -i menuFlag=1
+        while [ $menuFlag -eq 1 ]
+        do 
+            echo -e $menu 
+            echo -e "Enter your command: " 
+            read menuCommand 
+            if [ "$menuCommand" == "a" ]
+            then
+                echo -e "Enter date to find files newer than this date (eg: sept 13, 2021):  "
+                read newerDate 
+                find . -type f -newermt "$newerDate" -iname ".*" -ls
+            elif [ "$menuCommand" == "b" ]
+            then 
+                echo -e "Enter date to find files older than this date (eg: sept 13, 2021): "
+                read olderDate 
+                find . -type f -not -newermt "$olderDate" -iname ".*" -ls
+            else 
+                echo -e "See you later, alligator!"
+                menuFlag=0
+            fi  
+        done 
+        directoryNameFlag=0
+    else 
+        echo -e "It does not exist. Try some other directory!"
+    fi
+done
+````
