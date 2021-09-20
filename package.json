@@ -1,27 +1,27 @@
 {
-  "name": "Notes",
-  "version": "1.0.0",
-  "description": "��#\u0000 \u0000u\u0000n\u0000r\u0000e\u0000a\u0000d\u0000.\u0000p\u0000a\u0000r\u0000t\u0000h\u0000s\u0000h\u0000a\u0000h\u0000.\u0000m\u0000l\u0000\r\u0000 \u0000",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/parthmshah1302/unread.parthshah.ml.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/parthmshah1302/unread.parthshah.ml/issues"
-  },
-  "homepage": "https://github.com/parthmshah1302/unread.parthshah.ml#readme",
-  "dependencies": {
-    "@dendronhq/dendron-11ty": "^1.58.4",
-    "@dendronhq/dendron-cli": "^0.54.0"
-  }
+    "name": "Notes",
+    "version": "1.0.0",
+    "description": "��#\u0000 \u0000u\u0000n\u0000r\u0000e\u0000a\u0000d\u0000.\u0000p\u0000a\u0000r\u0000t\u0000h\u0000s\u0000h\u0000a\u0000h\u0000.\u0000m\u0000l\u0000\r\u0000 \u0000",
+    "main": "index.js",
+    "directories": {
+        "doc": "docs"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/parthmshah1302/unread.parthshah.ml.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/parthmshah1302/unread.parthshah.ml/issues"
+    },
+    "homepage": "https://github.com/parthmshah1302/unread.parthshah.ml#readme",
+    "dependencies": {
+        "@dendronhq/dendron-11ty-legacy": "^0.59.1",
+        "@dendronhq/dendron-cli": "^0.54.0"
+    }
 }
