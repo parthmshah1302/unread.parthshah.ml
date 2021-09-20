@@ -1,6 +1,6 @@
 ---
 id: QZbTuFlJ1IpdowLvQbBqN
-title: L8
+title: L8 - FCFS, Round Robin, SPF
 desc: ''
 updated: 1632110740531
 created: 1632110558108
