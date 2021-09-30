@@ -1,6 +1,6 @@
 ---
 id: Fze1YCbNLdpLWKvMNGCG7
-title: 'Assignment 2'
+title: Assignment 2
 desc: ''
 updated: 1630985648001
 created: 1630950164444

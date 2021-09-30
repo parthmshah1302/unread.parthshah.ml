@@ -1,7 +1,7 @@
 ---
 id: kpE72TZQpzpP8tReGBXeh
 title: Sept1
-desc: ""
+desc: ''
 updated: 1630554635606
 created: 1630492847604
 ---

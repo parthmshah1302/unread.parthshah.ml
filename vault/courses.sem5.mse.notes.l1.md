@@ -1,7 +1,7 @@
 ---
 id: EWRjwA46F89YwmS02wrQu
 title: L1 - Intro to Material Science and Engineering
-desc: ""
+desc: ''
 updated: 1629119872437
 created: 1629115781256
 ---

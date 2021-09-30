@@ -1,7 +1,7 @@
 ---
 id: YmWOd4xszZMV0mLFklxgE
 title: L2 - Observing sculptures and Studying rocks
-desc: ""
+desc: ''
 updated: 1629345180373
 created: 1629340939942
 ---

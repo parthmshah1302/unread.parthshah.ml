@@ -1,6 +1,6 @@
 ---
 id: sX5HCJQCQctqtxtSOOdo6
-title: 'Lab 3'
+title: Lab 3
 desc: ''
 updated: 1631731518866
 created: 1631178674787

@@ -1,7 +1,7 @@
 ---
 id: DA5TzYNG4MEHUjowPx9Nz
 title: L2 - Evolution of Operating Systems
-desc: ""
+desc: ''
 updated: 1629259873921
 created: 1629253961752
 ---

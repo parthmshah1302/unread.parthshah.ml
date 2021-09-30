@@ -1,7 +1,7 @@
 ---
 id: eQCiMfRMlQE31XQLiiDxe
-title: "Assignment 1"
-desc: ""
+title: Assignment 1
+desc: ''
 updated: 1630985392802
 created: 1630381195395
 ---

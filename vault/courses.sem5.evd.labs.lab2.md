@@ -1,7 +1,7 @@
 ---
 id: 0vsXoFu0T3hAK2pzle2TP
 title: Lab2
-desc: ""
+desc: ''
 updated: 1630950157709
 created: 1630650940304
 ---

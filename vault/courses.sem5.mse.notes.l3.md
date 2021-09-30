@@ -1,7 +1,7 @@
 ---
 id: omAwLOv3wYSYrihgzYlu4
 title: L3 - Crystal Lattice
-desc: ""
+desc: ''
 updated: 1631248508725
 created: 1629722430887
 ---

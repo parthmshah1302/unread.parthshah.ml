@@ -1,6 +1,6 @@
 ---
 id: NeIwLrHhAoe6rgfDudU1a
-title: L1 - Introduction to IDTB 
+title: L1 - Introduction to IDTB
 desc: ''
 updated: 1629452347861
 created: 1629106647961

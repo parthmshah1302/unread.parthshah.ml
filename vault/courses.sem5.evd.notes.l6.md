@@ -1,7 +1,7 @@
 ---
 id: 77g6JzMBNkkOQqRk0XI1N
 title: L6 - More questions on Timers
-desc: ""
+desc: ''
 updated: 1631541303229
 created: 1631511728234
 ---
