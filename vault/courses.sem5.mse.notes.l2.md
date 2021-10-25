@@ -1,7 +1,7 @@
 ---
 id: xq0GnO0HFf6xhbcExBsVJ
-title: L2 Classification, Properties and Questions on Materials
-desc: ""
+title: 'L2 Classification, Properties and Questions on Materials'
+desc: ''
 updated: 1629465591171
 created: 1629461194541
 ---

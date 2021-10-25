@@ -1,7 +1,7 @@
 ---
 id: 0h9QZ2ftvX1tmqpS3D8W3
 title: Johari Window
-desc: ""
+desc: ''
 updated: 1629446074921
 created: 1629431887812
 ---

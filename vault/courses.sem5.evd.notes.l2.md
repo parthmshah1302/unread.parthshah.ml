@@ -1,7 +1,7 @@
 ---
 id: uKhRcI7ma3FciJBnOBB7U
 title: L2 - Selection of Microcontroller
-desc: ""
+desc: ''
 updated: 1629441443393
 created: 1629438343720
 ---

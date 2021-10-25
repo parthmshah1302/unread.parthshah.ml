@@ -1,6 +1,6 @@
 ---
 id: 7R82FAhpJe40RHIZ1nEvC
-title: Welcome to Unread 👾
+title: "Welcome to Unread \U0001F47E"
 desc: ''
 updated: 1629169352514
 created: 1628700973833

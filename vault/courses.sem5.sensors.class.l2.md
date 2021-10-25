@@ -1,7 +1,7 @@
 ---
 id: F8bjfoaKriAQ6Ylq1vCHH
 title: L2 - Analog and Digital Instruments
-desc: ""
+desc: ''
 updated: 1629436898766
 created: 1629432150975
 ---

@@ -1,7 +1,7 @@
 ---
 id: 3fwuSmznOkPjykdOJkjtl
 title: L1 - Introduction to Sensors
-desc: ""
+desc: ''
 updated: 1629363115808
 created: 1629358665347
 ---
