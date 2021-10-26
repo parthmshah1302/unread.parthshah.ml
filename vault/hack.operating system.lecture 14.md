@@ -2,7 +2,7 @@
 id: MRFvlIv7habGSXINZNfvm
 title: Lecture 14
 desc: ''
-updated: 1635268115867
+updated: 1635268192760
 created: 1635268102612
 ---
 
@@ -27,9 +27,6 @@ created: 1635268102612
 * ![](/assets/images/2021-10-24-17-22-44.png)
 * ![](/assets/images/2021-10-24-17-23-25.png)
 * For now assume that buffer is infinite.
-    * ![](/assets/images/2021-10-24-17-24-44.png)
-    * ![](/assets/images/2021-10-24-17-27-25.png)
-    * ![](/assets/images/2021-10-24-17-28-04.png)
     * 'n' represents how many items can be consumed.
     * 's' is the semaphore used for mutual exclusion whereas 'delay' is the semaphore used for synchronization between producer process and consumer process.
     * We have used binary semaphore here.
