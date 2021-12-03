@@ -2,7 +2,7 @@
 id: S6qGJ49gEHqNoNfAgAEtJ
 title: L16 - Fresco painting, Stone Deterioration and Ceramic Deterioration
 desc: ""
-updated: 1638544013602
+updated: 1638544235242
 created: 1638382579707
 ---
 
@@ -53,31 +53,32 @@ created: 1638382579707
 
 - Sandstone is a layerified structure
 - Salts flow inside the wall - as they are porous
-- Evaporation takes place on the exterieoir part of the wall 
+- Evaporation takes place on the exterieoir part of the wall
 - Salts accumulate on the external layer and crystallizes
-- What can be the consequence? 
-  - Salt will expand teh volume 
+- What can be the consequence?
+  - Salt will expand teh volume
   - The external layer will fall
 - External layer detaches, and this process is called as exfoliation
 - It is termed as seperation of layers
-- _Slide from class_ 
+- _Slide from class_
   - ![](/assets/images/2021-12-03-20-28-14.png)
 
-### Leaching of marble surface 
-* CaCO3 reacts with Acid rain and leaches out
-* What is Acid Rain? 
-  * Nitric Acid and Sulphuric Acid are formed 
-  * Moisture from air combines with NO2 and SO2 to form HNO3 and H2SO4 respectively 
-  * Water combines with CO2 to also form Carbonic Acid (H2CO3)
-* $CaCO3 + H2SO4 \rightarrow CaSO4 + H2CO3$ 
-* All surface details are lost 
-* _Slide_
-  * ![](/assets/images/2021-12-03-20-33-57.png)
+### Leaching of marble surface
+
+- CaCO3 reacts with Acid rain and leaches out
+- What is Acid Rain?
+  - Nitric Acid and Sulphuric Acid are formed
+  - Moisture from air combines with NO2 and SO2 to form HNO3 and H2SO4 respectively
+  - Water combines with CO2 to also form Carbonic Acid (H2CO3)
+- $CaCO3 + H2SO4 \rightarrow CaSO4 + H2CO3$
+- All surface details are lost
+- _Slide_
+  - ![](/assets/images/2021-12-03-20-33-57.png)
 
 ## Deterioration in Ceramics
-* ![](/assets/images/![](/assets/images/2021-12-03-20-34-23.png).png)
-* Generally are very porous materials 
-* What does the porosity depend on? 
-  * Inversely proportinal to heating (more heating, less porosity) 
-* Frost damage - also due to porosity in ceramics
 
+- ![](</assets/images/![](/assets/images/2021-12-03-20-34-23.png).png>)
+- Generally are very porous materials
+- What does the porosity depend on?
+  - Inversely proportinal to heating (more heating, less porosity)
+- Frost damage - also due to porosity in ceramics
