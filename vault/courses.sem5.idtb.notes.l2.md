@@ -1,10 +1,11 @@
 ---
-id: Lye09DOJnFdCOBx6w8Ih6
+id: 64p87lepFnqfD0Cj6rTnW
 title: L2
 desc: ''
 updated: 1629465353005
 created: 1629450408868
 ---
+
 # Johari Window (What is it and how is it going to help us)
 * Concept by Joe Luft and Harrington Ingham
 * Awareness of inner being and openness to share information with others 

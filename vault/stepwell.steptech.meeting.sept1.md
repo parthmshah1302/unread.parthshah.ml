@@ -1,10 +1,11 @@
 ---
-id: kpE72TZQpzpP8tReGBXeh
+id: GIUJMmqlQok0zbbxfCAOO
 title: Sept1
 desc: ''
 updated: 1630554635606
 created: 1630492847604
 ---
+
 
 ## Podcasts
 

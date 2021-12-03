@@ -1,10 +1,11 @@
 ---
-id: 6nBVL1ESZ7dhEK1gqCZ8X
+id: ojqH4Xf7ZQb5EP97CEFPV
 title: L5 - Time Delay - Equations and Programming
 desc: Equations and programming questions on timer delay and
 updated: 1630910887790
 created: 1630906182302
 ---
+
 
 ### Deadline for report submission of Lab 1 - 22nd September
 

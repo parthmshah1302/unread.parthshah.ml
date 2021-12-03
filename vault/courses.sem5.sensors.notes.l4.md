@@ -1,10 +1,11 @@
 ---
-id: S7hzPUgSE9dC5ARCuwnan
+id: nhO2Y8Na4Qstq2P6Ed69g
 title: L4 - Errors in measurements
 desc: ''
 updated: 1628783961434
 created: 1628701054688
 ---
+
 
 ## What is error?
 * Difference between measured and the true value

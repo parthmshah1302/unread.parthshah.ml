@@ -1,10 +1,11 @@
 ---
-id: omAwLOv3wYSYrihgzYlu4
+id: i22RyOET15fVm59ceHklo
 title: L3 - Crystal Lattice
 desc: ''
 updated: 1631248508725
 created: 1629722430887
 ---
+
 [Formula](/assets/MSEForm.pdf)
 ## What is Crystal Lattice?
 

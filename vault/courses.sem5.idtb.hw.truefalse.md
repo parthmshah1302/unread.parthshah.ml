@@ -1,10 +1,11 @@
 ---
-id: W2uPBGGdfbR6DlAPJbPFK
+id: VZ5TNElZnjQ4GBBnYDW5p
 title: True Or False
 desc: ''
 updated: 1629432422183
 created: 1629432403053
 ---
+
 
 
 1. To change people's behavior toward members of ethnic minority groups, we must first change their

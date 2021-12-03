@@ -1,10 +1,11 @@
 ---
-id: xq0GnO0HFf6xhbcExBsVJ
+id: ElG0y0lYAUAzm5H8TxDGR
 title: 'L2 Classification, Properties and Questions on Materials'
 desc: ''
 updated: 1629465591171
 created: 1629461194541
 ---
+
 
 ![](/assets/images/2021-08-20-17-40-22.png)
 

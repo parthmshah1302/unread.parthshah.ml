@@ -1,10 +1,11 @@
 ---
-id: Ljd0Ep11nrBiHDcJI9V69
+id: nfJ4Jtd2QKTHgMzKzH0gr
 title: L9 - Arduino Digital Read Function
 desc: ''
 updated: 1628912340644
 created: 1628911760808
 ---
+
 ## Digital Read Function
 
 * One pole two way switch 

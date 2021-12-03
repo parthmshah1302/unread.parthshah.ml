@@ -1,10 +1,11 @@
 ---
-id: 1wR8FhSYAgyg5wGBh8cUY
+id: GroSbMfiLfT8hwMyM0kjp
 title: L6 - Vyogotsky's Theory
 desc: ''
 updated: 1630931734255
 created: 1630931560520
 ---
+
 
 ![](/assets/images/IDTB_Lec6.1.jpeg)
 

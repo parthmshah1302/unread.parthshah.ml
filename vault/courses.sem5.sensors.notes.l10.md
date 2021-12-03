@@ -1,10 +1,11 @@
 ---
-id: z4SPrlxT9ovjXmENpQMsz
+id: DBCmUurHlfawnGF7hxP4p
 title: L10 - Analog Read Function and ADC Linearity
 desc: ''
 updated: 1628913826689
 created: 1628912422837
 ---
+
 ## Initial steps
 * A potentiometer is used to generate a voltage from 0-5Volts and it's output is connected to input pin of Arduino
 * **0 to 5 volts** is read as **0 to 1023** (are actually stored in Binary inside the machine)

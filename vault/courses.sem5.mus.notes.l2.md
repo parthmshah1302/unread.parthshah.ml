@@ -1,10 +1,11 @@
 ---
-id: xUlu6c9milUpPsf0wUJY1
+id: AL6idO55DOfGlPpOkUggj
 title: L2 - Indian Music and it's History
 desc: ''
 updated: 1629378817829
 created: 1629374907423
 ---
+
 # Roots of the Indian Music 
 * It roots from the Samveda
 * Marga Sangeet: For the gods, and more rigid 

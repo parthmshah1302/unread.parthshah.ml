@@ -1,10 +1,11 @@
 ---
-id: R6v2jA00EefUIr6P7BMaW
+id: JgT8mFDnHs4k98rMTbzvO
 title: Plan until Sept 12
 desc: ''
 updated: 1630556027579
 created: 1630554680195
 ---
+
 ![](/assets/images/2021-09-02-09-21-22.png)
 
 ### Entry points 

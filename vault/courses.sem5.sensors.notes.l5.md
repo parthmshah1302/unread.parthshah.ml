@@ -1,10 +1,11 @@
 ---
-id: JUSf11k5hrRnjgOjxiI4p
+id: E5gXIhJuVzu77rh6G9kc4
 title: L5 - More specifications for measurement systems
 desc: ''
 updated: 1628784202087
 created: 1628778703697
 ---
+
 
 ## Accuracy vs Precision
 * Degree of reproducibility of a measurement is precision

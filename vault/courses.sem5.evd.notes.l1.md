@@ -1,10 +1,11 @@
 ---
-id: JNCpZiOuMNZ01shEPHI4t
+id: 0pZS6luMsYd3TUWA1seOv
 title: L1 - Introduction to Embedded Systems
 desc: ''
 updated: 1629096644719
 created: 1629092526082
 ---
+
 
 ##  Two categories of Products 
 * System performance critical - **Microprocessor**

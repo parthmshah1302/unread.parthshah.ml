@@ -1,10 +1,11 @@
 ---
-id: sX5HCJQCQctqtxtSOOdo6
+id: lGg9kadULDIHkjEBruYGz
 title: Lab 3
 desc: ''
 updated: 1631731518866
 created: 1631178674787
 ---
+
 
 ![](/assets/images/2021-09-09-14-45-25.png)
 

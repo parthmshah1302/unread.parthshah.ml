@@ -1,10 +1,11 @@
 ---
-id: 6rg4PmVO9zXsMScG7zokh
+id: JhkVfhBxm7ITNr6GicACe
 title: L3 - Melody
 desc: ''
 updated: 1629811347667
 created: 1629806428067
 ---
+
 * If you are playing 2 or more notes simultaneously, that's a harmony
 # Melody 
 * A combination of musical notes 

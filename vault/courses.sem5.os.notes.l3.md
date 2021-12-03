@@ -1,10 +1,11 @@
 ---
-id: xQxAnhBrpZaRlMfjBcTRp
+id: qjMeXuV7hb06QNzlb54im
 title: L3 - System Calls
 desc: ''
 updated: 1631264354067
 created: 1629685917618
 ---
+
 ## System Calls 
 * Helps to access the services provided by an Operating System
 * ![](/assets/images/2021-08-23-08-23-02.png)

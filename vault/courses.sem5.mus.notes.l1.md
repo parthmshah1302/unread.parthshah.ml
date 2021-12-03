@@ -1,10 +1,11 @@
 ---
-id: q6v1hFppecn2BhyC378vd
+id: SUK5qspUxQBB5SxAWcv4P
 title: L1 - Introduction to Music
 desc: ''
 updated: 1629207096066
 created: 1629201909223
 ---
+
 ![](/assets/images/2021-08-17-17-56-43.png)
 
 _Those who ask a question may be fool for a moment but those who does not ask remains fool forever_

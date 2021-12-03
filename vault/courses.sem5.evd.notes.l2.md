@@ -1,10 +1,11 @@
 ---
-id: uKhRcI7ma3FciJBnOBB7U
+id: DreO1uu9MYiSodOWcpM4S
 title: L2 - Selection of Microcontroller
 desc: ''
 updated: 1629441443393
 created: 1629438343720
 ---
+
 
 # What are the criteria for selecting microcontroller
 

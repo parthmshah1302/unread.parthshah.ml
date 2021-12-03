@@ -1,10 +1,11 @@
 ---
-id: 8hs8yTYxmWRMK4109qyVh
+id: VQrOMQKQNLqdilPJTffRr
 title: L6 - Evaluation Components
 desc: ''
 updated: 1630933840636
 created: 1630929930446
 ---
+
 
 ![](/assets/images/2021-09-06-17-39-15.png)
 

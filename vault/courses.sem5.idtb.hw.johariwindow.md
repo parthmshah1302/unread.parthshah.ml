@@ -1,10 +1,11 @@
 ---
-id: 0h9QZ2ftvX1tmqpS3D8W3
+id: cDr2LjEZqReQqeeIyIQFz
 title: Johari Window
 desc: ''
 updated: 1629446074921
 created: 1629431887812
 ---
+
 
 1. If a friend of mine had a "personality conflict" with a mutual acquaintance of ours with whom
    it was important for him/her to get along, I would:

@@ -1,10 +1,11 @@
 ---
-id: Zda7hTwKErM89zYrFDRBb
+id: 4eTfo4nYAmUBLxE7Giu9A
 title: L5 - Control Systems
 desc: ''
 updated: 1630642645188
 created: 1630568152560
 ---
+
 * A control system manages, commands, directs, or regulates the behavior of other devices or systems using control loop
 ## Parts of a Control System 
 * Toaster

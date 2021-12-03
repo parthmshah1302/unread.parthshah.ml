@@ -1,10 +1,11 @@
 ---
-id: YNHuJIcu7w68UGo1kAFrN
+id: g9Dd2lDE4P6liacKuuZPu
 title: L7 -  Arduino interfacing
 desc: ''
 updated: 1628798622573
 created: 1628798098066
 ---
+
 ## Download the Arduino IDE 
 * [Check this link](https://www.arduino.cc/en/software)
 ## Things to check 

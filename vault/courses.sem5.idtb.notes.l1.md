@@ -1,10 +1,11 @@
 ---
-id: NeIwLrHhAoe6rgfDudU1a
+id: eBqzk8DWxYJQBzGoJgcX0
 title: L1 - Introduction to IDTB
 desc: ''
 updated: 1629452347861
 created: 1629106647961
 ---
+
 ## What is Psychology? 
 * Psychology is the science of **behaviour** and the **mind**; it includes the application of the **science** to solve human problems.
 * Unconscious knowledge are operations that are stored in your mind and helps to organise and react to information

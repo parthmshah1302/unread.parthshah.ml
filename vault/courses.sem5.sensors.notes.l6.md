@@ -1,10 +1,11 @@
 ---
-id: gbYfp4nQC66bL3Z4v0V9d
+id: 12IF3EqIlkJYrEYNn5lQ3
 title: L6 - Computerized measurement and control systems
 desc: ''
 updated: 1628912389111
 created: 1628794730076
 ---
+
 
 ## Development of a control board software
 * The program is written on a general purpose computer and then uploaded on a control board

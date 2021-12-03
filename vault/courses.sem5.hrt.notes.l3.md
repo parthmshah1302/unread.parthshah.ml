@@ -1,10 +1,11 @@
 ---
-id: rONaqXcKaPAhVOjplBspL
+id: 5FtjgdX0fIlDRqZSMQO52
 title: L3 - Hardness of Stones
 desc: ''
 updated: 1629776907395
 created: 1629772785127
 ---
+
 ![](/assets/images/2021-08-24-08-12-16.png)
 * Quartz is main component of Sandstone 
 * Calcite is the chief composition of Limestone (monomineralistic)

@@ -1,10 +1,11 @@
 ---
-id: HwR0cuHxotpiqksRauh5F
+id: 0NLAO2K8NfXBaHaiArIsr
 title: L1 - Introduction to Operating Systems
 desc: ''
 updated: 1629086430775
 created: 1629081150369
 ---
+
 ## What is computing system? 
 * Computation on input data and generate some result is the basic purpose of any computing system 
 * Comprised of 3 things: 

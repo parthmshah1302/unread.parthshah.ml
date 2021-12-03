@@ -1,10 +1,11 @@
 ---
-id: DA5TzYNG4MEHUjowPx9Nz
+id: RKwGt9lVUjUu9oHDw6f3A
 title: L2 - Evolution of Operating Systems
 desc: ''
 updated: 1629259873921
 created: 1629253961752
 ---
+
 ## Serial Processing 
 * No Operating System 
 * Machines run from a console with 

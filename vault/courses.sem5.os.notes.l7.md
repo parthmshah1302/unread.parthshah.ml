@@ -1,5 +1,5 @@
 ---
-id: VkKtb0a6IaUCyQtpyyKaK
+id: mk0OljjYAilJkpAKsvSsH
 title: L7 - Uniprocessor and Types of Scheduling
 desc: ''
 updated: 1632194865480
