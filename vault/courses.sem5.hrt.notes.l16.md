@@ -2,7 +2,7 @@
 id: S6qGJ49gEHqNoNfAgAEtJ
 title: L16 - Fresco painting, Stone Deterioration and Ceramic Deterioration
 desc: ""
-updated: 1638544235242
+updated: 1638544673898
 created: 1638382579707
 ---
 
@@ -77,7 +77,7 @@ created: 1638382579707
 
 ## Deterioration in Ceramics
 
-- ![](</assets/images/![](/assets/images/2021-12-03-20-34-23.png).png>)
+- ![](/assets/images/2021-12-03-20-34-23.png)
 - Generally are very porous materials
 - What does the porosity depend on?
   - Inversely proportinal to heating (more heating, less porosity)
